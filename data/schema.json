@@ -1,0 +1,509 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "languageHub – modelo de dados",
+ "description": "content.json guarda o conteúdo (temas, flashcards, quizzes). O progresso do aluno fica no localStorage (chave languagehub:v1) com o formato de UserProgress. O ranking usa LeaderboardEntry.",
+ "$defs": {
+  "Content": {
+   "type": "object",
+   "required": [
+    "version",
+    "themes",
+    "flashcards",
+    "quizzes"
+   ],
+   "properties": {
+    "version": {
+     "type": "integer"
+    },
+    "themes": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/Theme"
+     }
+    },
+    "flashcards": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/Flashcard"
+     }
+    },
+    "quizzes": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/Quiz"
+     }
+    },
+    "skills": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/Skill"
+     }
+    },
+    "groups": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "id",
+       "name"
+      ],
+      "properties": {
+       "id": {
+        "type": "string"
+       },
+       "name": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "Theme": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "summary",
+    "kind"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "examples": [
+      "passive-voice"
+     ]
+    },
+    "name": {
+     "type": "string"
+    },
+    "summary": {
+     "type": "string"
+    },
+    "kind": {
+     "enum": [
+      "grammar",
+      "audio",
+      "video"
+     ]
+    },
+    "accent": {
+     "type": "string",
+     "description": "Cor da fita washi do tema (hex)"
+    },
+    "group": {
+     "type": "string",
+     "description": "id do grupo (tempos, gramatica, vocabulario, leitura, midia)"
+    }
+   }
+  },
+  "Flashcard": {
+   "type": "object",
+   "required": [
+    "id",
+    "themeId",
+    "front",
+    "back"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "examples": [
+      "fc-1"
+     ]
+    },
+    "themeId": {
+     "type": "string"
+    },
+    "front": {
+     "type": "string"
+    },
+    "back": {
+     "type": "string"
+    },
+    "skill": {
+     "type": "string",
+     "description": "id de Skill"
+    },
+    "typeAnswer": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Respostas aceitas quando o aluno digita antes de virar (comparação sem acento, maiúscula, apóstrofo e pontuação)"
+    }
+   }
+  },
+  "Quiz": {
+   "type": "object",
+   "required": [
+    "id",
+    "type",
+    "themeId",
+    "prompt",
+    "options",
+    "answer",
+    "explanation"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "examples": [
+      "qt-1",
+      "qv-1"
+     ]
+    },
+    "type": {
+     "enum": [
+      "text",
+      "audio",
+      "video"
+     ]
+    },
+    "themeId": {
+     "type": "string"
+    },
+    "prompt": {
+     "type": "string"
+    },
+    "options": {
+     "type": "object",
+     "required": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "additionalProperties": {
+      "type": "string"
+     }
+    },
+    "answer": {
+     "enum": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ]
+    },
+    "explanation": {
+     "type": "string"
+    },
+    "audio": {
+     "type": "string",
+     "description": "Áudio de pronúncia (quiz de texto)"
+    },
+    "video": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "Cena em vídeo; null enquanto a mídia não foi gravada"
+    },
+    "tts": {
+     "type": "string",
+     "description": "Frase em inglês lida pela voz sintetizada (questão de áudio)"
+    },
+    "transcript": {
+     "type": "string",
+     "description": "Transcrição exibida depois da resposta"
+    },
+    "expression": {
+     "type": "string",
+     "description": "Expressão-alvo da cena (questão de vídeo)"
+    },
+    "mediaStatus": {
+     "enum": [
+      "ready",
+      "pending"
+     ]
+    },
+    "mediaRef": {
+     "type": "string",
+     "format": "uri",
+     "description": "Onde buscar/gravar a cena (ex.: PlayPhrase)"
+    },
+    "skill": {
+     "type": "string",
+     "description": "id de Skill"
+    }
+   }
+  },
+  "SrsState": {
+   "description": "Metadados SM-2 de um flashcard, por aluno",
+   "type": "object",
+   "required": [
+    "ef",
+    "reps",
+    "interval",
+    "due"
+   ],
+   "properties": {
+    "ef": {
+     "type": "number",
+     "minimum": 1.3,
+     "default": 2.5,
+     "description": "Fator de facilidade"
+    },
+    "reps": {
+     "type": "integer",
+     "description": "Revisões seguidas sem errar"
+    },
+    "interval": {
+     "type": "number",
+     "description": "Intervalo atual em dias (0 = reaprendendo)"
+    },
+    "due": {
+     "type": "integer",
+     "description": "Próxima revisão (timestamp em ms)"
+    },
+    "lapses": {
+     "type": "integer",
+     "description": "Quantas vezes o aluno errou o cartão"
+    },
+    "lastReview": {
+     "type": "integer"
+    },
+    "lastRating": {
+     "enum": [
+      "again",
+      "hard",
+      "good",
+      "easy"
+     ]
+    },
+    "reviews": {
+     "type": "integer",
+     "description": "Total de revisões do cartão (base do diagnóstico)"
+    }
+   }
+  },
+  "QuizStat": {
+   "type": "object",
+   "properties": {
+    "attempts": {
+     "type": "integer"
+    },
+    "correct": {
+     "type": "integer"
+    },
+    "lastCorrect": {
+     "type": "boolean"
+    },
+    "lastAt": {
+     "type": "integer"
+    }
+   }
+  },
+  "XpEvent": {
+   "type": "object",
+   "required": [
+    "t",
+    "xp",
+    "reason"
+   ],
+   "properties": {
+    "t": {
+     "type": "integer",
+     "description": "Timestamp em ms"
+    },
+    "xp": {
+     "type": "integer"
+    },
+    "reason": {
+     "enum": [
+      "flashcard",
+      "quiz-correct",
+      "quiz-wrong",
+      "speed",
+      "accuracy"
+     ]
+    }
+   }
+  },
+  "UserProgress": {
+   "type": "object",
+   "required": [
+    "user",
+    "srs",
+    "quizStats",
+    "xpLog",
+    "streak"
+   ],
+   "properties": {
+    "user": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "name": {
+       "type": "string"
+      },
+      "avatarColor": {
+       "type": "string"
+      },
+      "createdAt": {
+       "type": "integer"
+      }
+     }
+    },
+    "srs": {
+     "type": "object",
+     "additionalProperties": {
+      "$ref": "#/$defs/SrsState"
+     }
+    },
+    "quizStats": {
+     "type": "object",
+     "additionalProperties": {
+      "$ref": "#/$defs/QuizStat"
+     }
+    },
+    "xpLog": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/XpEvent"
+     }
+    },
+    "streak": {
+     "type": "object",
+     "properties": {
+      "count": {
+       "type": "integer"
+      },
+      "lastDay": {
+       "type": "string",
+       "format": "date"
+      }
+     }
+    },
+    "daily": {
+     "type": "object",
+     "description": "Acertos do dia (marquinhas de ACERTOS HOJE)",
+     "properties": {
+      "day": {
+       "type": "string",
+       "format": "date"
+      },
+      "correct": {
+       "type": "integer"
+      }
+     }
+    },
+    "prefs": {
+     "type": "object",
+     "properties": {
+      "lastRankingPeriod": {
+       "enum": [
+        "week",
+        "all"
+       ]
+      },
+      "tutorialDone": {
+       "type": "boolean"
+      },
+      "font": {
+       "enum": [
+        "hand",
+        "reading"
+       ]
+      }
+     }
+    }
+   }
+  },
+  "LeaderboardEntry": {
+   "type": "object",
+   "description": "Documento leaderboard/<userId> no banco compartilhado do app. Guarda só o id; o nome é resolvido na hora pela conta de cada aluno.",
+   "required": [
+    "xpTotal",
+    "xpWeek",
+    "weekStart",
+    "streak",
+    "updatedAt"
+   ],
+   "properties": {
+    "xpTotal": {
+     "type": "integer"
+    },
+    "xpWeek": {
+     "type": "integer"
+    },
+    "weekStart": {
+     "type": "integer",
+     "description": "Segunda-feira 00:00 da semana do xpWeek (ms)"
+    },
+    "streak": {
+     "type": "integer"
+    },
+    "updatedAt": {
+     "type": "integer"
+    }
+   }
+  },
+  "RoundError": {
+   "type": "object",
+   "description": "Erro registrado durante uma rodada de quiz",
+   "required": [
+    "quizId",
+    "prompt",
+    "selected",
+    "correct",
+    "explanation"
+   ],
+   "properties": {
+    "quizId": {
+     "type": "string"
+    },
+    "prompt": {
+     "type": "string"
+    },
+    "selected": {
+     "enum": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ]
+    },
+    "correct": {
+     "enum": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ]
+    },
+    "explanation": {
+     "type": "string"
+    }
+   }
+  },
+  "Skill": {
+   "type": "object",
+   "description": "Ponto gramatical usado no Diagnóstico",
+   "required": [
+    "id",
+    "themeId",
+    "name",
+    "tip"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "themeId": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "tip": {
+     "type": "string",
+     "description": "Dica curta mostrada no post-it do ponto fraco"
+    }
+   }
+  }
+ }
+}

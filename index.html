@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>languageHub</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect x=%226%22 y=%224%22 width=%2252%22 height=%2256%22 rx=%228%22 fill=%22%236BBF59%22 stroke=%22%232A302B%22 stroke-width=%224%22/%3E%3Cpath d=%22M18 4v56%22 stroke=%22%23E07A70%22 stroke-width=%223%22/%3E%3Ctext x=%2238%22 y=%2243%22 font-family=%22Arial%22 font-weight=%22800%22 font-size=%2226%22 text-anchor=%22middle%22 fill=%22%232A302B%22%3EH%3C/text%3E%3C/svg%3E">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patrick+Hand+SC&family=Nunito:wght@400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="css/styles.css?v=7">
+</head>
+<body>
+<div class="desk">
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="languageHub, início">language<b>Hub</b></a>
+    <label class="search search-top" for="busca-global">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="busca-global" type="search" placeholder="Buscar no caderno..." autocomplete="off">
+    </label>
+    <div class="stats" aria-live="polite">
+      <span class="chip" id="chip-streak" title="Ofensiva diária"></span>
+      <span class="chip" id="chip-xp" title="XP total"></span>
+    </div>
+    <div class="tools">
+      <button class="tool" id="btn-help" type="button" title="Como funciona" aria-label="Como funciona">?</button>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Navegação principal">
+    <a href="#inicio" data-route="inicio" style="--tab:#6BBF59">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v9h-5v-6H9v6H4z"/></svg><span>Início</span>
+    </a>
+    <a href="#revisoes" data-route="revisoes" style="--tab:#E8665B">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="6" width="13" height="14" rx="2"/><path d="M8 3h10a2 2 0 0 1 2 2v12"/></svg><span>Revisões</span>
+      <b class="badge" id="badge-due" hidden></b>
+    </a>
+    <a href="#diagnostico" data-route="diagnostico" style="--tab:#8E6BD6">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 19V5M4 19h16"/><path d="m7 15 4-4 3 3 5-6"/></svg><span>Diagnóstico</span>
+    </a>
+    <a href="#busca" data-route="busca" style="--tab:#3E9BD6">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>Buscar</span>
+    </a>
+    <a href="#ranking" data-route="ranking" style="--tab:#F0AE1E">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg><span>Ranking</span>
+    </a>
+  </nav>
+
+  <main class="sheet" id="sheet">
+    <div class="holes" aria-hidden="true"></div>
+    <div class="page" id="view" tabindex="-1"></div>
+  </main>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script src="js/store.js?v=7"></script>
+<script src="js/srs.js?v=7"></script>
+<script src="js/xp.js?v=7"></script>
+<script src="js/search.js?v=7"></script>
+<script src="js/ui.js?v=7"></script>
+<script src="js/cloud.js?v=7"></script>
+<script src="js/app.js?v=7"></script>
+</body>
+</html>

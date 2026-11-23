@@ -1,0 +1,4925 @@
+{
+ "version": 5,
+ "themes": [
+  {
+   "id": "simple-present",
+   "name": "Simple Present",
+   "summary": "Hábitos, rotinas e verdades gerais. Com he/she/it, o verbo ganha -s ou -es.",
+   "kind": "grammar",
+   "accent": "#E8665B",
+   "group": "tempos"
+  },
+  {
+   "id": "present-continuous",
+   "name": "Present Continuous",
+   "summary": "Ações acontecendo agora ou temporárias: am/is/are + verbo com -ing.",
+   "kind": "grammar",
+   "accent": "#F5814A",
+   "group": "tempos"
+  },
+  {
+   "id": "simple-past",
+   "name": "Simple Past",
+   "summary": "Ações concluídas no passado. Regulares ganham -ed; irregulares têm forma própria (go → went).",
+   "kind": "grammar",
+   "accent": "#8E6BD6",
+   "group": "tempos"
+  },
+  {
+   "id": "past-continuous",
+   "name": "Past Continuous",
+   "summary": "Ação em andamento num momento do passado, muitas vezes interrompida por outra.",
+   "kind": "grammar",
+   "accent": "#D0619F",
+   "group": "tempos"
+  },
+  {
+   "id": "present-perfect",
+   "name": "Present Perfect",
+   "summary": "Liga o passado ao presente: experiências, resultados e ações que começaram e continuam (have/has + particípio).",
+   "kind": "grammar",
+   "accent": "#23A6C9",
+   "group": "tempos"
+  },
+  {
+   "id": "future",
+   "name": "Future (will / going to)",
+   "summary": "Planos, previsões, promessas e decisões: quando usar will e quando usar be going to.",
+   "kind": "grammar",
+   "accent": "#4C8FE0",
+   "group": "tempos"
+  },
+  {
+   "id": "passive-voice",
+   "name": "Passive Voice",
+   "summary": "Estrutura usada para dar foco à ação ou a quem recebe a ação, em vez de quem a pratica.",
+   "kind": "grammar",
+   "accent": "#F0AE1E",
+   "group": "gramatica"
+  },
+  {
+   "id": "tag-questions",
+   "name": "Tag Questions",
+   "summary": "São perguntas curtas adicionadas ao final de uma frase para pedir confirmação (equivalentes ao nosso 'né?', 'não é?' ou 'verdade?').",
+   "kind": "grammar",
+   "accent": "#3E9BD6",
+   "group": "gramatica"
+  },
+  {
+   "id": "modals",
+   "name": "Modal Verbs",
+   "summary": "Can, could, must, should, may, might e have to: habilidade, permissão, obrigação, conselho e possibilidade.",
+   "kind": "grammar",
+   "accent": "#B5A81E",
+   "group": "gramatica"
+  },
+  {
+   "id": "conditionals",
+   "name": "Conditionals (If clauses)",
+   "summary": "Frases com if: fatos, possibilidades, hipóteses e arrependimentos (zero, 1ª, 2ª e 3ª condicional).",
+   "kind": "grammar",
+   "accent": "#EF7F62",
+   "group": "gramatica"
+  },
+  {
+   "id": "relative-pronouns",
+   "name": "Relative Pronouns",
+   "summary": "Who, which, that, whose, where e when: ligam orações e evitam repetir palavras.",
+   "kind": "grammar",
+   "accent": "#4CAF7A",
+   "group": "gramatica"
+  },
+  {
+   "id": "reported-speech",
+   "name": "Reported Speech",
+   "summary": "Contar o que alguém disse (discurso indireto): os tempos recuam e pronomes e expressões de tempo mudam.",
+   "kind": "grammar",
+   "accent": "#E05A87",
+   "group": "gramatica"
+  },
+  {
+   "id": "comparatives",
+   "name": "Comparatives & Superlatives",
+   "summary": "Comparar coisas (taller than, more expensive than) e apontar o maior (the tallest, the most important).",
+   "kind": "grammar",
+   "accent": "#F2C230",
+   "group": "gramatica"
+  },
+  {
+   "id": "gerund-infinitive",
+   "name": "Gerund & Infinitive",
+   "summary": "Quando usar o verbo com -ing (enjoy reading) e quando usar to + verbo (want to read).",
+   "kind": "grammar",
+   "accent": "#2FB5A3",
+   "group": "gramatica"
+  },
+  {
+   "id": "pronouns",
+   "name": "Pronouns",
+   "summary": "Pronomes sujeito, objeto, possessivos e reflexivos, e a quem cada pronome se refere no texto.",
+   "kind": "grammar",
+   "accent": "#9C7BE0",
+   "group": "vocabulario"
+  },
+  {
+   "id": "quantifiers",
+   "name": "Countable & Quantifiers",
+   "summary": "Contáveis e incontáveis, much, many, few, little, some e any.",
+   "kind": "grammar",
+   "accent": "#E8875A",
+   "group": "vocabulario"
+  },
+  {
+   "id": "prepositions",
+   "name": "Prepositions (in, on, at)",
+   "summary": "Preposições de tempo e lugar: at 7 p.m., on Monday, in July, at school, on the table, in Brazil.",
+   "kind": "grammar",
+   "accent": "#3BA3E3",
+   "group": "vocabulario"
+  },
+  {
+   "id": "phrasal-verbs",
+   "name": "Phrasal Verbs",
+   "summary": "Verbo + partícula (up, off, out...) que forma um novo significado: give up = desistir.",
+   "kind": "grammar",
+   "accent": "#6BBF59",
+   "group": "vocabulario"
+  },
+  {
+   "id": "connectors",
+   "name": "Linking Words",
+   "summary": "Conectivos que mudam o sentido do texto: however, although, therefore, because, moreover... campeões de questão no ENEM.",
+   "kind": "grammar",
+   "accent": "#EB6A6A",
+   "group": "leitura"
+  },
+  {
+   "id": "false-cognates",
+   "name": "False Cognates",
+   "summary": "Falsos cognatos: palavras parecidas com o português, mas com outro sentido (actually, pretend, push...).",
+   "kind": "grammar",
+   "accent": "#8DB33A",
+   "group": "leitura"
+  },
+  {
+   "id": "affixes",
+   "name": "Prefixes & Suffixes",
+   "summary": "Prefixos e sufixos para deduzir palavras novas no texto: unhappy, rewrite, carefully, homeless.",
+   "kind": "grammar",
+   "accent": "#B66BD6",
+   "group": "leitura"
+  },
+  {
+   "id": "reading-strategies",
+   "name": "Reading Strategies",
+   "summary": "Estratégias para a prova de leitura: skimming, scanning, cognatos, contexto e gênero do texto.",
+   "kind": "grammar",
+   "accent": "#EFA51F",
+   "group": "leitura"
+  },
+  {
+   "id": "listening",
+   "name": "Listening",
+   "summary": "Ouça frases curtas sobre temas comuns no vestibular e responda. A transcrição aparece depois da resposta.",
+   "kind": "audio",
+   "accent": "#F5B731",
+   "group": "midia"
+  },
+  {
+   "id": "video",
+   "name": "Interpretação de Vídeo",
+   "summary": "Assista a trechos curtos em inglês e marque a interpretação correta.",
+   "kind": "video",
+   "accent": "#2FAE9B",
+   "group": "midia"
+  }
+ ],
+ "flashcards": [
+  {
+   "id": "fc-1",
+   "themeId": "passive-voice",
+   "front": "Transforme para a Passive Voice (Present Perfect): \"They have finished the project.\"",
+   "back": "The project has been finished. (Usa-se has/have been + particípio.)",
+   "typeAnswer": [
+    "the project has been finished"
+   ],
+   "skill": "pv-tempo"
+  },
+  {
+   "id": "fc-2",
+   "themeId": "passive-voice",
+   "front": "Qual é a estrutura verbal obrigatória em todas as frases na Passive Voice?",
+   "back": "O verbo To Be (no tempo adequado) + o Particípio Passado (Past Participle) do verbo principal.",
+   "skill": "pv-tempo"
+  },
+  {
+   "id": "fc-3",
+   "themeId": "passive-voice",
+   "front": "Passe para a Passive Voice (Past Continuous): \"She was washing the car.\"",
+   "back": "The car was being washed. (Usa-se was/were being + particípio.)",
+   "typeAnswer": [
+    "the car was being washed"
+   ],
+   "skill": "pv-tempo"
+  },
+  {
+   "id": "fc-4",
+   "themeId": "passive-voice",
+   "front": "Como expressamos quem realizou a ação (o agente da passiva) em inglês?",
+   "back": "Utilizando a preposição \"by\" seguida do agente (Ex: ...by the teacher).",
+   "skill": "pv-agente"
+  },
+  {
+   "id": "fc-5",
+   "themeId": "passive-voice",
+   "front": "Transforme para a Passive Voice (Modais - can): \"You can solve this problem.\"",
+   "back": "This problem can be solved. (Modais usam modal + be + particípio.)",
+   "typeAnswer": [
+    "this problem can be solved"
+   ],
+   "skill": "pv-modal"
+  },
+  {
+   "id": "fc-6",
+   "themeId": "tag-questions",
+   "front": "Qual é a regra básica de polaridade (sinal) das Tag Questions?",
+   "back": "Se a frase principal for afirmativa, a tag question é negativa. Se a frase for negativa, a tag é afirmativa.",
+   "skill": "tq-polaridade"
+  },
+  {
+   "id": "fc-7",
+   "themeId": "tag-questions",
+   "front": "Complete com a Tag Question: \"He has never traveled abroad, ______?\"",
+   "back": "...has he? (Never deixa a frase principal com sentido negativo, logo a tag precisa ser afirmativa.)",
+   "typeAnswer": [
+    "has he"
+   ],
+   "skill": "tq-polaridade"
+  },
+  {
+   "id": "fc-8",
+   "themeId": "tag-questions",
+   "front": "Complete com a Tag Question: \"Everybody enjoyed the concert, ______?\"",
+   "back": "...didn't they? (Pronomes indefinidos como everybody são tratados no plural they na tag question, e o verbo enjoyed está no passado.)",
+   "typeAnswer": [
+    "didn't they"
+   ],
+   "skill": "tq-excecoes"
+  },
+  {
+   "id": "fc-9",
+   "themeId": "tag-questions",
+   "front": "Complete com a Tag Question (Imperativo/Pedido): \"Open the window, ______?\"",
+   "back": "...will you? (Ou won't you? Frases no imperativo normalmente usam will you?.)",
+   "skill": "tq-excecoes",
+   "typeAnswer": [
+    "will you",
+    "won't you",
+    "would you",
+    "could you",
+    "can you"
+   ]
+  },
+  {
+   "id": "fc-10",
+   "themeId": "tag-questions",
+   "front": "Complete com a Tag Question para uma frase com verbo modal (should): \"We should leave early, ______?\"",
+   "back": "...shouldn't we? (O próprio modal é repetido na tag question de forma contrariada.)",
+   "typeAnswer": [
+    "shouldn't we"
+   ],
+   "skill": "tq-auxiliar"
+  },
+  {
+   "id": "fc-11",
+   "themeId": "passive-voice",
+   "skill": "pv-participio",
+   "front": "Qual é o particípio de \"write\"?",
+   "back": "written (write, wrote, written)",
+   "typeAnswer": [
+    "written"
+   ]
+  },
+  {
+   "id": "fc-12",
+   "themeId": "passive-voice",
+   "skill": "pv-participio",
+   "front": "Qual é o particípio de \"build\"?",
+   "back": "built (build, built, built)",
+   "typeAnswer": [
+    "built"
+   ]
+  },
+  {
+   "id": "fc-13",
+   "themeId": "passive-voice",
+   "skill": "pv-agente",
+   "front": "Quando o agente da passiva (by...) pode ser omitido?",
+   "back": "Quando é desconhecido, óbvio ou não importa: \"My phone was stolen.\""
+  },
+  {
+   "id": "fc-14",
+   "themeId": "passive-voice",
+   "skill": "pv-modal",
+   "front": "Passe para a passiva: \"We must protect the forests.\"",
+   "back": "The forests must be protected. (modal + be + particípio)",
+   "typeAnswer": [
+    "the forests must be protected"
+   ]
+  },
+  {
+   "id": "fc-15",
+   "themeId": "passive-voice",
+   "skill": "pv-tempo",
+   "front": "Passe para a passiva: \"They will announce the results tomorrow.\"",
+   "back": "The results will be announced tomorrow. (will be + particípio)",
+   "typeAnswer": [
+    "the results will be announced tomorrow",
+    "the results will be announced"
+   ]
+  },
+  {
+   "id": "fc-16",
+   "themeId": "tag-questions",
+   "skill": "tq-excecoes",
+   "front": "Complete com a tag: \"There are many problems in the city, ______?\"",
+   "back": "...aren't there? (com there is/are, a tag repete there)",
+   "typeAnswer": [
+    "aren't there"
+   ]
+  },
+  {
+   "id": "fc-17",
+   "themeId": "tag-questions",
+   "skill": "tq-excecoes",
+   "front": "Complete com a tag: \"Nobody called the police, ______?\"",
+   "back": "...did they? (nobody é negativo e vira they)",
+   "typeAnswer": [
+    "did they"
+   ]
+  },
+  {
+   "id": "fc-18",
+   "themeId": "tag-questions",
+   "skill": "tq-auxiliar",
+   "front": "Complete com a tag: \"She can speak Spanish, ______?\"",
+   "back": "...can't she? (o modal se repete na tag)",
+   "typeAnswer": [
+    "can't she",
+    "cannot she"
+   ]
+  },
+  {
+   "id": "fc-19",
+   "themeId": "tag-questions",
+   "skill": "tq-polaridade",
+   "front": "Complete com a tag: \"They aren't ready, ______?\"",
+   "back": "...are they? (frase negativa, tag afirmativa)",
+   "typeAnswer": [
+    "are they"
+   ]
+  },
+  {
+   "id": "fc-20",
+   "themeId": "simple-present",
+   "skill": "sp-3pessoa",
+   "front": "Complete: \"She ___ (work) in a hospital.\"",
+   "back": "works (he/she/it: o verbo ganha -s)",
+   "typeAnswer": [
+    "works"
+   ]
+  },
+  {
+   "id": "fc-21",
+   "themeId": "simple-present",
+   "skill": "sp-3pessoa",
+   "front": "Como fica \"watch\" com he/she/it?",
+   "back": "watches (-ch, -sh, -s, -x e -o ganham -es)",
+   "typeAnswer": [
+    "watches"
+   ]
+  },
+  {
+   "id": "fc-22",
+   "themeId": "simple-present",
+   "skill": "sp-3pessoa",
+   "front": "Como fica \"study\" com he/she/it?",
+   "back": "studies (consoante + y vira -ies)",
+   "typeAnswer": [
+    "studies"
+   ]
+  },
+  {
+   "id": "fc-23",
+   "themeId": "simple-present",
+   "skill": "sp-auxiliar",
+   "front": "Complete a pergunta: \"___ they live in Curitiba?\"",
+   "back": "Do (I, you, we e they usam do)",
+   "typeAnswer": [
+    "do"
+   ]
+  },
+  {
+   "id": "fc-24",
+   "themeId": "simple-present",
+   "skill": "sp-auxiliar",
+   "front": "Qual auxiliar nega o Simple Present com he/she/it?",
+   "back": "doesn't + verbo na forma base: She doesn't like it.",
+   "typeAnswer": [
+    "doesn't",
+    "does not"
+   ]
+  },
+  {
+   "id": "fc-25",
+   "themeId": "simple-present",
+   "skill": "sp-uso",
+   "front": "Para que serve o Simple Present?",
+   "back": "Hábitos (I study every day), verdades gerais (Water boils at 100 °C) e horários fixos (The bus leaves at 7)."
+  },
+  {
+   "id": "fc-26",
+   "themeId": "simple-past",
+   "skill": "pa-irregular",
+   "front": "Qual é o passado simples de \"go\"?",
+   "back": "went (go, went, gone)",
+   "typeAnswer": [
+    "went"
+   ]
+  },
+  {
+   "id": "fc-27",
+   "themeId": "simple-past",
+   "skill": "pa-irregular",
+   "front": "Qual é o passado simples de \"buy\"?",
+   "back": "bought (buy, bought, bought)",
+   "typeAnswer": [
+    "bought"
+   ]
+  },
+  {
+   "id": "fc-28",
+   "themeId": "simple-past",
+   "skill": "pa-irregular",
+   "front": "Qual é o passado simples de \"think\"?",
+   "back": "thought (think, thought, thought)",
+   "typeAnswer": [
+    "thought"
+   ]
+  },
+  {
+   "id": "fc-29",
+   "themeId": "simple-past",
+   "skill": "pa-regular",
+   "front": "Qual é o passado simples de \"stop\"?",
+   "back": "stopped (consoante-vogal-consoante dobra a última letra)",
+   "typeAnswer": [
+    "stopped"
+   ]
+  },
+  {
+   "id": "fc-30",
+   "themeId": "simple-past",
+   "skill": "pa-regular",
+   "front": "Qual é o passado simples de \"study\"?",
+   "back": "studied (consoante + y vira -ied)",
+   "typeAnswer": [
+    "studied"
+   ]
+  },
+  {
+   "id": "fc-31",
+   "themeId": "simple-past",
+   "skill": "pa-did",
+   "front": "Monte a pergunta no passado: you / finish / the project",
+   "back": "Did you finish the project? (did + sujeito + verbo base)",
+   "typeAnswer": [
+    "did you finish the project"
+   ]
+  },
+  {
+   "id": "fc-32",
+   "themeId": "simple-past",
+   "skill": "pa-did",
+   "front": "Como se faz a negativa no Simple Past?",
+   "back": "didn't + verbo na forma base: I didn't see it."
+  },
+  {
+   "id": "fc-33",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "front": "carry out",
+   "back": "realizar, conduzir: They carried out a survey.",
+   "typeAnswer": [
+    "realizar",
+    "conduzir"
+   ]
+  },
+  {
+   "id": "fc-34",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "front": "point out",
+   "back": "apontar, destacar: The text points out a problem.",
+   "typeAnswer": [
+    "apontar",
+    "destacar"
+   ]
+  },
+  {
+   "id": "fc-35",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "front": "find out",
+   "back": "descobrir: She found out the truth.",
+   "typeAnswer": [
+    "descobrir"
+   ]
+  },
+  {
+   "id": "fc-36",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "front": "give up",
+   "back": "desistir, parar de: Don't give up!",
+   "typeAnswer": [
+    "desistir",
+    "parar"
+   ]
+  },
+  {
+   "id": "fc-37",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "front": "come up with",
+   "back": "ter uma ideia, criar: He came up with a plan.",
+   "typeAnswer": [
+    "ter uma ideia",
+    "criar",
+    "inventar",
+    "propor"
+   ]
+  },
+  {
+   "id": "fc-38",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "front": "cut down on",
+   "back": "reduzir o consumo de: Cut down on sugar.",
+   "typeAnswer": [
+    "reduzir",
+    "diminuir"
+   ]
+  },
+  {
+   "id": "fc-39",
+   "themeId": "present-continuous",
+   "skill": "pc-forma",
+   "front": "Estrutura do Present Continuous",
+   "back": "Sujeito + am/is/are + verbo-ing: She is studying now."
+  },
+  {
+   "id": "fc-40",
+   "themeId": "present-continuous",
+   "skill": "pc-forma",
+   "front": "Forma -ing de \"make\"",
+   "back": "making (tira o -e e põe -ing)",
+   "typeAnswer": [
+    "making"
+   ]
+  },
+  {
+   "id": "fc-41",
+   "themeId": "present-continuous",
+   "skill": "pc-forma",
+   "front": "Forma -ing de \"swim\"",
+   "back": "swimming (consoante-vogal-consoante dobra a última letra)",
+   "typeAnswer": [
+    "swimming"
+   ]
+  },
+  {
+   "id": "fc-42",
+   "themeId": "present-continuous",
+   "skill": "pc-uso",
+   "front": "Por que não dizemos \"I am knowing\"?",
+   "back": "Know é verbo de estado (como like, want, believe): fica no Simple Present. I know."
+  },
+  {
+   "id": "fc-43",
+   "themeId": "past-continuous",
+   "skill": "pac-forma",
+   "front": "Estrutura do Past Continuous",
+   "back": "was/were + verbo-ing: I was sleeping. They were playing."
+  },
+  {
+   "id": "fc-44",
+   "themeId": "past-continuous",
+   "skill": "pac-uso",
+   "front": "When x while",
+   "back": "When + ação curta (Simple Past): when he arrived. While + ação longa (Past Continuous): while I was cooking."
+  },
+  {
+   "id": "fc-45",
+   "themeId": "past-continuous",
+   "skill": "pac-forma",
+   "front": "Complete: \"I ___ (watch) TV when you called.\"",
+   "back": "was watching",
+   "typeAnswer": [
+    "was watching"
+   ]
+  },
+  {
+   "id": "fc-46",
+   "themeId": "past-continuous",
+   "skill": "pac-forma",
+   "front": "Complete: \"They ___ (not / listen) to the teacher.\"",
+   "back": "weren't listening",
+   "typeAnswer": [
+    "weren't listening",
+    "were not listening"
+   ]
+  },
+  {
+   "id": "fc-47",
+   "themeId": "present-perfect",
+   "skill": "pp-forma",
+   "front": "Estrutura do Present Perfect",
+   "back": "have/has + particípio: She has finished. They have arrived."
+  },
+  {
+   "id": "fc-48",
+   "themeId": "present-perfect",
+   "skill": "pp-uso",
+   "front": "Already, yet e just",
+   "back": "already = já (afirmativas); yet = já? / ainda não (perguntas e negativas, no fim); just = acabou de."
+  },
+  {
+   "id": "fc-49",
+   "themeId": "present-perfect",
+   "skill": "pp-uso",
+   "front": "Present Perfect ou Simple Past? \"I ___ (see) him yesterday.\"",
+   "back": "saw. Yesterday é tempo definido: Simple Past.",
+   "typeAnswer": [
+    "saw"
+   ]
+  },
+  {
+   "id": "fc-50",
+   "themeId": "present-perfect",
+   "skill": "pp-uso",
+   "front": "Complete com for ou since: \"She has lived here ___ 2015.\"",
+   "back": "since (ponto de início)",
+   "typeAnswer": [
+    "since"
+   ]
+  },
+  {
+   "id": "fc-51",
+   "themeId": "future",
+   "skill": "fu-going",
+   "front": "Will x going to",
+   "back": "Will: decisão na hora, promessa, previsão por opinião. Going to: plano já decidido, previsão com evidência."
+  },
+  {
+   "id": "fc-52",
+   "themeId": "future",
+   "skill": "fu-will",
+   "front": "Contração de \"will not\"",
+   "back": "won't",
+   "typeAnswer": [
+    "won't"
+   ]
+  },
+  {
+   "id": "fc-53",
+   "themeId": "future",
+   "skill": "fu-will",
+   "front": "Complete: \"I ___ (call) you later, I promise.\"",
+   "back": "will call ('ll call)",
+   "typeAnswer": [
+    "will call",
+    "'ll call"
+   ]
+  },
+  {
+   "id": "fc-54",
+   "themeId": "future",
+   "skill": "fu-going",
+   "front": "Complete: \"She ___ (have) a baby. She is pregnant.\"",
+   "back": "is going to have (previsão com evidência)",
+   "typeAnswer": [
+    "is going to have",
+    "'s going to have"
+   ]
+  },
+  {
+   "id": "fc-55",
+   "themeId": "modals",
+   "skill": "mo-sentido",
+   "front": "Must x have to",
+   "back": "Must: obrigação (regra, ordem de quem fala). Have to: obrigação externa. Mustn't = proibido; don't have to = não precisa."
+  },
+  {
+   "id": "fc-56",
+   "themeId": "modals",
+   "skill": "mo-sentido",
+   "front": "Can x could",
+   "back": "can = consegue/pode (presente); could = conseguia/podia (passado) ou pedido educado: Could you help me?"
+  },
+  {
+   "id": "fc-57",
+   "themeId": "modals",
+   "skill": "mo-sentido",
+   "front": "Should",
+   "back": "conselho: You should study more. (deveria)"
+  },
+  {
+   "id": "fc-58",
+   "themeId": "modals",
+   "skill": "mo-sentido",
+   "front": "May / might",
+   "back": "possibilidade: It may/might rain. May também pede permissão formal: May I come in?"
+  },
+  {
+   "id": "fc-59",
+   "themeId": "conditionals",
+   "skill": "co-tipos",
+   "front": "Zero conditional",
+   "back": "If + presente, presente: If you heat water to 100 °C, it boils. (fatos)"
+  },
+  {
+   "id": "fc-60",
+   "themeId": "conditionals",
+   "skill": "co-tipos",
+   "front": "1ª condicional",
+   "back": "If + presente, will + verbo: If it rains, I will stay home. (possível)"
+  },
+  {
+   "id": "fc-61",
+   "themeId": "conditionals",
+   "skill": "co-tipos",
+   "front": "2ª condicional",
+   "back": "If + passado, would + verbo: If I won the lottery, I would travel. (hipótese)"
+  },
+  {
+   "id": "fc-62",
+   "themeId": "conditionals",
+   "skill": "co-tipos",
+   "front": "3ª condicional",
+   "back": "If + had + particípio, would have + particípio: If I had known, I would have helped. (passado que não aconteceu)"
+  },
+  {
+   "id": "fc-63",
+   "themeId": "conditionals",
+   "skill": "co-forma",
+   "front": "Complete: \"If I ___ (be) rich, I would help everyone.\"",
+   "back": "were (2ª condicional usa were para todas as pessoas)",
+   "typeAnswer": [
+    "were"
+   ]
+  },
+  {
+   "id": "fc-64",
+   "themeId": "relative-pronouns",
+   "skill": "rp-escolha",
+   "front": "who / which / that",
+   "back": "who = pessoas; which = coisas e animais; that = pessoas ou coisas (sem vírgula)."
+  },
+  {
+   "id": "fc-65",
+   "themeId": "relative-pronouns",
+   "skill": "rp-escolha",
+   "front": "whose",
+   "back": "indica posse (cujo): The boy whose bike was stolen."
+  },
+  {
+   "id": "fc-66",
+   "themeId": "relative-pronouns",
+   "skill": "rp-escolha",
+   "front": "where / when",
+   "back": "where = lugar (the city where I live); when = tempo (the day when we met)."
+  },
+  {
+   "id": "fc-67",
+   "themeId": "relative-pronouns",
+   "skill": "rp-escolha",
+   "front": "Complete: \"The book ___ I bought is great.\"",
+   "back": "which (ou that): retoma uma coisa",
+   "typeAnswer": [
+    "which",
+    "that"
+   ]
+  },
+  {
+   "id": "fc-68",
+   "themeId": "reported-speech",
+   "skill": "rs-tempos",
+   "front": "Recuo dos tempos no reported speech",
+   "back": "presente → passado; will → would; can → could; passado → had + particípio."
+  },
+  {
+   "id": "fc-69",
+   "themeId": "reported-speech",
+   "skill": "rs-mudancas",
+   "front": "say x tell",
+   "back": "say something (She said that...); tell someone (She told me that...)."
+  },
+  {
+   "id": "fc-70",
+   "themeId": "reported-speech",
+   "skill": "rs-mudancas",
+   "front": "today / tomorrow / here no discurso indireto",
+   "back": "today → that day; tomorrow → the next day; here → there."
+  },
+  {
+   "id": "fc-71",
+   "themeId": "reported-speech",
+   "skill": "rs-tempos",
+   "front": "\"I am happy,\" he said. → He said that he ___ happy.",
+   "back": "was",
+   "typeAnswer": [
+    "was"
+   ]
+  },
+  {
+   "id": "fc-72",
+   "themeId": "comparatives",
+   "skill": "cs-comparativo",
+   "front": "Comparativo de adjetivos curtos",
+   "back": "-er + than: tall → taller; big → bigger; easy → easier."
+  },
+  {
+   "id": "fc-73",
+   "themeId": "comparatives",
+   "skill": "cs-comparativo",
+   "front": "Comparativo de adjetivos longos",
+   "back": "more + adjetivo + than: more important than."
+  },
+  {
+   "id": "fc-74",
+   "themeId": "comparatives",
+   "skill": "cs-superlativo",
+   "front": "Superlativo de \"bad\"",
+   "back": "the worst",
+   "typeAnswer": [
+    "the worst",
+    "worst"
+   ]
+  },
+  {
+   "id": "fc-75",
+   "themeId": "comparatives",
+   "skill": "cs-superlativo",
+   "front": "Comparativo de \"good\"",
+   "back": "better (than)",
+   "typeAnswer": [
+    "better"
+   ]
+  },
+  {
+   "id": "fc-76",
+   "themeId": "comparatives",
+   "skill": "cs-comparativo",
+   "front": "Comparação de igualdade",
+   "back": "as + adjetivo + as: She is as tall as her brother."
+  },
+  {
+   "id": "fc-77",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-depois",
+   "front": "Verbos seguidos de -ing",
+   "back": "enjoy, avoid, finish, mind, keep, suggest: I enjoy reading."
+  },
+  {
+   "id": "fc-78",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-depois",
+   "front": "Verbos seguidos de to + verbo",
+   "back": "want, decide, hope, plan, need, promise: I want to travel."
+  },
+  {
+   "id": "fc-79",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-uso",
+   "front": "Depois de preposição, o verbo vai para...",
+   "back": "-ing: She is good at drawing.",
+   "typeAnswer": [
+    "-ing",
+    "ing",
+    "gerund",
+    "gerundio"
+   ]
+  },
+  {
+   "id": "fc-80",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-depois",
+   "front": "Complete: \"I finished ___ (write) my essay.\"",
+   "back": "writing",
+   "typeAnswer": [
+    "writing"
+   ]
+  },
+  {
+   "id": "fc-81",
+   "themeId": "pronouns",
+   "skill": "pr-tipos",
+   "front": "Pronomes sujeito",
+   "back": "I, you, he, she, it, we, they."
+  },
+  {
+   "id": "fc-82",
+   "themeId": "pronouns",
+   "skill": "pr-tipos",
+   "front": "Pronomes objeto",
+   "back": "me, you, him, her, it, us, them."
+  },
+  {
+   "id": "fc-83",
+   "themeId": "pronouns",
+   "skill": "pr-tipos",
+   "front": "my x mine",
+   "back": "my/your/his/her/our/their + substantivo (It's my book); mine/yours/his/hers/ours/theirs sozinhos (It's mine)."
+  },
+  {
+   "id": "fc-84",
+   "themeId": "pronouns",
+   "skill": "pr-tipos",
+   "front": "Pronome reflexivo de \"they\"",
+   "back": "themselves",
+   "typeAnswer": [
+    "themselves"
+   ]
+  },
+  {
+   "id": "fc-85",
+   "themeId": "quantifiers",
+   "skill": "qu-quantidade",
+   "front": "many x much",
+   "back": "many + contáveis (many books); much + incontáveis (much water)."
+  },
+  {
+   "id": "fc-86",
+   "themeId": "quantifiers",
+   "skill": "qu-quantidade",
+   "front": "few x little",
+   "back": "few/a few + contáveis; little/a little + incontáveis. Sem o a, a ideia é negativa (quase nenhum)."
+  },
+  {
+   "id": "fc-87",
+   "themeId": "quantifiers",
+   "skill": "qu-quantidade",
+   "front": "some x any",
+   "back": "some: afirmativas e ofertas; any: negativas e perguntas."
+  },
+  {
+   "id": "fc-88",
+   "themeId": "quantifiers",
+   "skill": "qu-contaveis",
+   "front": "Incontáveis que caem no vestibular",
+   "back": "information, advice, news, money, furniture, homework, water."
+  },
+  {
+   "id": "fc-89",
+   "themeId": "prepositions",
+   "skill": "pre-tempo",
+   "front": "at (tempo)",
+   "back": "horas e momentos: at 7 p.m., at night, at noon."
+  },
+  {
+   "id": "fc-90",
+   "themeId": "prepositions",
+   "skill": "pre-tempo",
+   "front": "on (tempo)",
+   "back": "dias e datas: on Monday, on Christmas Day, on May 5th."
+  },
+  {
+   "id": "fc-91",
+   "themeId": "prepositions",
+   "skill": "pre-tempo",
+   "front": "in (tempo)",
+   "back": "meses, anos, estações e partes do dia: in July, in 2020, in the morning."
+  },
+  {
+   "id": "fc-92",
+   "themeId": "prepositions",
+   "skill": "pre-lugar",
+   "front": "in / on / at (lugar)",
+   "back": "in = dentro (in the room); on = superfície (on the table); at = ponto (at school)."
+  },
+  {
+   "id": "fc-93",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "front": "however",
+   "back": "porém, no entanto (contraste)",
+   "typeAnswer": [
+    "porem",
+    "no entanto",
+    "entretanto",
+    "contudo"
+   ]
+  },
+  {
+   "id": "fc-94",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "front": "therefore",
+   "back": "portanto (consequência)",
+   "typeAnswer": [
+    "portanto",
+    "por isso",
+    "logo"
+   ]
+  },
+  {
+   "id": "fc-95",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "front": "although",
+   "back": "embora (contraste, seguido de frase completa)",
+   "typeAnswer": [
+    "embora",
+    "apesar de",
+    "mesmo que"
+   ]
+  },
+  {
+   "id": "fc-96",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "front": "moreover / furthermore",
+   "back": "além disso (adição)",
+   "typeAnswer": [
+    "alem disso"
+   ]
+  },
+  {
+   "id": "fc-97",
+   "themeId": "connectors",
+   "skill": "cn-uso",
+   "front": "despite / in spite of",
+   "back": "apesar de (seguido de substantivo ou -ing)",
+   "typeAnswer": [
+    "apesar de",
+    "apesar"
+   ]
+  },
+  {
+   "id": "fc-98",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "front": "due to",
+   "back": "devido a (causa)",
+   "typeAnswer": [
+    "devido a",
+    "por causa de"
+   ]
+  },
+  {
+   "id": "fc-99",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "front": "actually",
+   "back": "na verdade (atualmente = nowadays/currently)",
+   "typeAnswer": [
+    "na verdade"
+   ]
+  },
+  {
+   "id": "fc-100",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "front": "pretend",
+   "back": "fingir (pretender = intend)",
+   "typeAnswer": [
+    "fingir"
+   ]
+  },
+  {
+   "id": "fc-101",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "front": "push",
+   "back": "empurrar (puxar = pull)",
+   "typeAnswer": [
+    "empurrar"
+   ]
+  },
+  {
+   "id": "fc-102",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "front": "college",
+   "back": "faculdade (colégio = school)",
+   "typeAnswer": [
+    "faculdade",
+    "universidade"
+   ]
+  },
+  {
+   "id": "fc-103",
+   "themeId": "false-cognates",
+   "skill": "fa-texto",
+   "front": "eventually",
+   "back": "finalmente, no fim das contas (eventualmente = occasionally)",
+   "typeAnswer": [
+    "finalmente",
+    "no fim"
+   ]
+  },
+  {
+   "id": "fc-104",
+   "themeId": "false-cognates",
+   "skill": "fa-texto",
+   "front": "realize",
+   "back": "perceber, dar-se conta (realizar = accomplish)",
+   "typeAnswer": [
+    "perceber",
+    "dar-se conta",
+    "notar"
+   ]
+  },
+  {
+   "id": "fc-105",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "front": "costume",
+   "back": "fantasia (costume em português = custom, habit)",
+   "typeAnswer": [
+    "fantasia"
+   ]
+  },
+  {
+   "id": "fc-106",
+   "themeId": "affixes",
+   "skill": "af-prefixos",
+   "front": "un- / in- / im- / dis-",
+   "back": "negação: unhappy, incorrect, impossible, dislike."
+  },
+  {
+   "id": "fc-107",
+   "themeId": "affixes",
+   "skill": "af-prefixos",
+   "front": "re-",
+   "back": "de novo: rewrite, rebuild.",
+   "typeAnswer": [
+    "de novo",
+    "novamente",
+    "repeticao"
+   ]
+  },
+  {
+   "id": "fc-108",
+   "themeId": "affixes",
+   "skill": "af-sufixos",
+   "front": "-ful x -less",
+   "back": "-ful = cheio de (useful); -less = sem (useless)."
+  },
+  {
+   "id": "fc-109",
+   "themeId": "affixes",
+   "skill": "af-sufixos",
+   "front": "-ly",
+   "back": "forma advérbios: quick → quickly; careful → carefully."
+  },
+  {
+   "id": "fc-110",
+   "themeId": "affixes",
+   "skill": "af-sufixos",
+   "front": "-er / -or",
+   "back": "quem faz a ação: teacher, worker, actor."
+  },
+  {
+   "id": "fc-111",
+   "themeId": "reading-strategies",
+   "skill": "rd-estrategias",
+   "front": "Skimming",
+   "back": "leitura rápida para captar a ideia geral do texto."
+  },
+  {
+   "id": "fc-112",
+   "themeId": "reading-strategies",
+   "skill": "rd-estrategias",
+   "front": "Scanning",
+   "back": "busca rápida por uma informação específica (data, número, nome)."
+  },
+  {
+   "id": "fc-113",
+   "themeId": "reading-strategies",
+   "skill": "rd-estrategias",
+   "front": "Cognatos",
+   "back": "palavras parecidas com o português e com o mesmo sentido: important, nature, technology."
+  },
+  {
+   "id": "fc-114",
+   "themeId": "reading-strategies",
+   "skill": "rd-estrategias",
+   "front": "Palavras-chave",
+   "back": "palavras repetidas no texto e no título geralmente revelam o tema."
+  }
+ ],
+ "quizzes": [
+  {
+   "id": "qt-1",
+   "type": "text",
+   "themeId": "passive-voice",
+   "prompt": "Qual é a forma correta da frase \"They clean the office every day\" na Passive Voice?",
+   "options": {
+    "A": "The office is cleaned every day.",
+    "B": "The office was cleaned every day.",
+    "C": "The office is cleaning every day.",
+    "D": "The office has cleaned every day."
+   },
+   "answer": "A",
+   "explanation": "Presente Simples usa is/are + particípio.",
+   "audio": "data/media/q1.mp3",
+   "skill": "pv-tempo"
+  },
+  {
+   "id": "qt-2",
+   "type": "text",
+   "themeId": "passive-voice",
+   "prompt": "Transforme a frase para a Passive Voice: \"Shakespeare wrote Hamlet.\"",
+   "options": {
+    "A": "Hamlet is written by Shakespeare.",
+    "B": "Hamlet was written by Shakespeare.",
+    "C": "Hamlet has written by Shakespeare.",
+    "D": "Hamlet writes Shakespeare."
+   },
+   "answer": "B",
+   "explanation": "Passado Simples usa was/were + particípio.",
+   "audio": "data/media/q2.mp3",
+   "skill": "pv-tempo"
+  },
+  {
+   "id": "qt-3",
+   "type": "text",
+   "themeId": "passive-voice",
+   "prompt": "Qual é a alternativa correta na Passive Voice para o Present Continuous: \"They are building a new bridge\"?",
+   "options": {
+    "A": "A new bridge is built.",
+    "B": "A new bridge was being built.",
+    "C": "A new bridge is being built.",
+    "D": "A new bridge has been built."
+   },
+   "answer": "C",
+   "explanation": "Present Continuous usa is/are + being + particípio.",
+   "skill": "pv-tempo",
+   "tts": "They are building a new bridge."
+  },
+  {
+   "id": "qt-4",
+   "type": "text",
+   "themeId": "passive-voice",
+   "prompt": "Como fica a frase \"Someone will steal your car\" na Passive Voice?",
+   "options": {
+    "A": "Your car will steal.",
+    "B": "Your car would be stolen.",
+    "C": "Your car will be stolen.",
+    "D": "Your car is stolen."
+   },
+   "answer": "C",
+   "explanation": "Futuro com will usa will be + particípio.",
+   "audio": "data/media/q4.mp3",
+   "skill": "pv-tempo"
+  },
+  {
+   "id": "qt-5",
+   "type": "text",
+   "themeId": "passive-voice",
+   "prompt": "Identifique a frase que está incorretamente na Passive Voice:",
+   "options": {
+    "A": "English is spoken all over the world.",
+    "B": "The cake was baked by Mary.",
+    "C": "This book was write by my friend.",
+    "D": "The letters have been sent."
+   },
+   "answer": "C",
+   "explanation": "O particípio de write é written. Portanto, a forma correta seria \"This book was written by my friend.\"",
+   "audio": "data/media/q5.mp3",
+   "skill": "pv-participio"
+  },
+  {
+   "id": "qt-6",
+   "type": "text",
+   "themeId": "tag-questions",
+   "prompt": "Complete a frase com a Tag Question correta: \"You live in London, ______?\"",
+   "options": {
+    "A": "do you?",
+    "B": "don't you?",
+    "C": "are you?",
+    "D": "aren't you?"
+   },
+   "answer": "B",
+   "explanation": "Frase afirmativa no Presente Simples exige uma tag negativa.",
+   "audio": "data/media/q6.mp3",
+   "skill": "tq-auxiliar"
+  },
+  {
+   "id": "qt-7",
+   "type": "text",
+   "themeId": "tag-questions",
+   "prompt": "Complete a frase: \"She won't come to the party, ______?\"",
+   "options": {
+    "A": "will she?",
+    "B": "won't she?",
+    "C": "does she?",
+    "D": "is she?"
+   },
+   "answer": "A",
+   "explanation": "Frase negativa com won't exige uma tag afirmativa.",
+   "audio": "data/media/q7.mp3",
+   "skill": "tq-polaridade"
+  },
+  {
+   "id": "qt-8",
+   "type": "text",
+   "themeId": "tag-questions",
+   "prompt": "Qual é a Tag Question correta para a frase no passado: \"They arrived late, ______?\"",
+   "options": {
+    "A": "didn't they?",
+    "B": "weren't they?",
+    "C": "don't they?",
+    "D": "haven't they?"
+   },
+   "answer": "A",
+   "explanation": "O verbo principal está no Passado Simples. Portanto, utiliza-se o auxiliar did na tag negativa.",
+   "audio": "data/media/q8.mp3",
+   "skill": "tq-auxiliar"
+  },
+  {
+   "id": "qt-9",
+   "type": "text",
+   "themeId": "tag-questions",
+   "prompt": "Qual é a exceção correta para a frase: \"I am late, ______?\"",
+   "options": {
+    "A": "am I not?",
+    "B": "aren't I?",
+    "C": "don't I?",
+    "D": "amn't I?"
+   },
+   "answer": "B",
+   "explanation": "A forma padrão e correta da tag question para I am é aren't I?",
+   "audio": "data/media/q9.mp3",
+   "skill": "tq-excecoes"
+  },
+  {
+   "id": "qt-10",
+   "type": "text",
+   "themeId": "tag-questions",
+   "prompt": "Complete a frase com a sugestão (Let's): \"Let's go to the cinema, ______?\"",
+   "options": {
+    "A": "do we?",
+    "B": "will we?",
+    "C": "shall we?",
+    "D": "let us?"
+   },
+   "answer": "C",
+   "explanation": "Sugestões iniciadas com Let's utilizam shall we? na tag question.",
+   "audio": "data/media/q10.mp3",
+   "skill": "tq-excecoes"
+  },
+  {
+   "id": "qv-1",
+   "type": "video",
+   "themeId": "video",
+   "prompt": "O que o personagem quis dizer na cena?",
+   "options": {
+    "A": "Eles estão lendo a mesma página de um livro.",
+    "B": "Eles estão de acordo, pensando da mesma forma.",
+    "C": "Ele pediu para virar a página.",
+    "D": "Ele quer mudar de assunto."
+   },
+   "answer": "B",
+   "explanation": "\"On the same page\" significa estar de acordo ou pensando da mesma forma, e não tem relação com páginas de um livro.",
+   "video": "data/media/cena1_v3.mp4",
+   "expression": "On the same page",
+   "mediaStatus": "ready",
+   "skill": "vd-expressao"
+  },
+  {
+   "id": "qv-2",
+   "type": "video",
+   "themeId": "video",
+   "prompt": "O que o personagem quis dizer na cena?",
+   "options": {
+    "A": "Ele está irritado e não acredita no que acabou de ouvir.",
+    "B": "Ele quer fazer uma pausa para descansar.",
+    "C": "Ele pediu um pedaço de chocolate.",
+    "D": "Ele está agradecendo a ajuda."
+   },
+   "answer": "A",
+   "explanation": "\"Give me a break\" demonstra irritação ou descrença diante de algo absurdo. Não é um pedido literal de pausa.",
+   "video": "data/media/cena2_v3.mp4",
+   "expression": "Give me a break",
+   "mediaStatus": "ready",
+   "skill": "vd-expressao"
+  },
+  {
+   "id": "qv-3",
+   "type": "video",
+   "themeId": "video",
+   "prompt": "O que o personagem quis dizer na cena?",
+   "options": {
+    "A": "Ele machucou o olho.",
+    "B": "Ele pediu para a pessoa fechar os olhos.",
+    "C": "Ele pediu para alguém ficar de olho e cuidar de algo por um tempo.",
+    "D": "Ele quer guardar algo no bolso."
+   },
+   "answer": "C",
+   "explanation": "\"Keep an eye on\" significa ficar de olho, vigiar ou cuidar de alguém ou de algo temporariamente.",
+   "video": "data/media/cena3_v3.mp4",
+   "expression": "Keep an eye on",
+   "mediaStatus": "ready",
+   "skill": "vd-expressao"
+  },
+  {
+   "id": "qv-4",
+   "type": "video",
+   "themeId": "video",
+   "prompt": "O que o personagem quis dizer na cena?",
+   "options": {
+    "A": "Algo caiu do céu azul.",
+    "B": "Ele está triste.",
+    "C": "Tudo aconteceu como o planejado.",
+    "D": "Algo aconteceu de repente, sem nenhum aviso."
+   },
+   "answer": "D",
+   "explanation": "\"Out of the blue\" indica que algo aconteceu de repente, de forma inesperada. Não tem relação com a cor azul.",
+   "video": "data/media/cena4_v3.mp4",
+   "expression": "Out of the blue",
+   "mediaStatus": "ready",
+   "skill": "vd-expressao"
+  },
+  {
+   "id": "qv-5",
+   "type": "video",
+   "themeId": "video",
+   "prompt": "O que o personagem quis dizer na cena?",
+   "options": {
+    "A": "Ele pede para a pessoa se maquiar.",
+    "B": "Ele pede para a pessoa finalmente tomar uma decisão.",
+    "C": "Ele pede para a pessoa inventar uma história.",
+    "D": "Ele pede para a pessoa esquecer o assunto."
+   },
+   "answer": "B",
+   "explanation": "\"Make up your mind\" é usado quando alguém está indeciso e precisa finalmente decidir.",
+   "video": "data/media/cena5_v3.mp4",
+   "expression": "Make up your mind",
+   "mediaStatus": "ready",
+   "skill": "vd-expressao"
+  },
+  {
+   "id": "qv-6",
+   "type": "video",
+   "themeId": "video",
+   "prompt": "O que o personagem quis dizer na cena?",
+   "options": {
+    "A": "Ele vai tocar a campainha.",
+    "B": "Ele ouviu um sino tocando.",
+    "C": "Aquilo parece familiar, mas ele não lembra exatamente de onde.",
+    "D": "Ele tem certeza absoluta de onde conhece aquilo."
+   },
+   "answer": "C",
+   "explanation": "\"Ring a bell\" significa soar familiar: a pessoa acha que já conhece algo, mas não lembra de onde.",
+   "video": "data/media/cena6_v3.mp4",
+   "expression": "Ring a bell",
+   "mediaStatus": "ready",
+   "skill": "vd-expressao"
+  },
+  {
+   "id": "qv-7",
+   "type": "video",
+   "themeId": "video",
+   "prompt": "O que o personagem quis dizer na cena?",
+   "options": {
+    "A": "Ele deixa a decisão para a outra pessoa.",
+    "B": "Ele pede para a pessoa subir as escadas.",
+    "C": "Ele já tomou a decisão sozinho.",
+    "D": "Ele diz que a culpa é da outra pessoa."
+   },
+   "answer": "A",
+   "explanation": "\"It's up to you\" transfere a decisão para a outra pessoa, como \"você que sabe\" ou \"fica a seu critério\".",
+   "video": "data/media/cena7_v3.mp4",
+   "expression": "It's up to you",
+   "mediaStatus": "ready",
+   "skill": "vd-expressao"
+  },
+  {
+   "id": "qv-8",
+   "type": "video",
+   "themeId": "video",
+   "prompt": "O que o personagem quis dizer na cena?",
+   "options": {
+    "A": "Ele diz que a tarefa já está pronta.",
+    "B": "Ele prefere conversar a fazer a tarefa.",
+    "C": "Ele diz que a tarefa é muito fácil.",
+    "D": "Ele acha que a ideia parece simples, mas é difícil de colocar em prática."
+   },
+   "answer": "D",
+   "explanation": "\"Easier said than done\" é usado para dizer que algo parece simples na teoria, mas é difícil na prática.",
+   "video": "data/media/cena8_v3.mp4",
+   "expression": "Easier said than done",
+   "mediaStatus": "ready",
+   "skill": "vd-expressao"
+  },
+  {
+   "id": "qt-11",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-tempo",
+   "prompt": "Complete: \"Every year, millions of tons of plastic ___ into the oceans.\"",
+   "options": {
+    "A": "is dumped",
+    "B": "dump",
+    "C": "are dumping",
+    "D": "are dumped"
+   },
+   "answer": "D",
+   "explanation": "Fato que se repete (every year) pede presente; o sujeito é plural (millions of tons), então: are + particípio."
+  },
+  {
+   "id": "qt-12",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-tempo",
+   "prompt": "Complete: \"The first vaccine against smallpox ___ by Edward Jenner in 1796.\"",
+   "options": {
+    "A": "developed",
+    "B": "has developed",
+    "C": "was developed",
+    "D": "is developed"
+   },
+   "answer": "C",
+   "explanation": "Data no passado (1796) e sujeito singular: was + particípio. Sem o was, a frase diria que a vacina desenvolveu algo."
+  },
+  {
+   "id": "qt-13",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-participio",
+   "prompt": "Complete: \"The book was ___ in 1950.\"",
+   "options": {
+    "A": "wrote",
+    "B": "writing",
+    "C": "writed",
+    "D": "written"
+   },
+   "answer": "D",
+   "explanation": "Write é irregular: write, wrote, written. Na passiva sempre entra o particípio (3ª coluna)."
+  },
+  {
+   "id": "qt-14",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-participio",
+   "prompt": "Complete: \"Many trees have been ___ down in the Amazon.\"",
+   "options": {
+    "A": "cutted",
+    "B": "cutting",
+    "C": "cut",
+    "D": "cuts"
+   },
+   "answer": "C",
+   "explanation": "Cut não muda: cut, cut, cut. Have been + particípio = Present Perfect na passiva."
+  },
+  {
+   "id": "qt-15",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-participio",
+   "prompt": "Complete: \"Portuguese is ___ in nine countries.\"",
+   "options": {
+    "A": "spoke",
+    "B": "speaked",
+    "C": "speaking",
+    "D": "spoken"
+   },
+   "answer": "D",
+   "explanation": "Speak é irregular: speak, spoke, spoken. Spoke é passado simples, não particípio."
+  },
+  {
+   "id": "qt-16",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-agente",
+   "prompt": "Em \"The Mona Lisa was painted by Leonardo da Vinci\", qual é o agente da passiva?",
+   "options": {
+    "A": "The Mona Lisa",
+    "B": "Não há agente na frase.",
+    "C": "was painted",
+    "D": "Leonardo da Vinci"
+   },
+   "answer": "D",
+   "explanation": "O agente é quem praticou a ação e vem depois de by. The Mona Lisa é o sujeito paciente."
+  },
+  {
+   "id": "qt-17",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-agente",
+   "prompt": "Passe para a voz passiva mantendo o agente: \"The government built new schools.\"",
+   "options": {
+    "A": "The government was built by new schools.",
+    "B": "New schools was built by the government.",
+    "C": "New schools were built by the government.",
+    "D": "New schools were build by the government."
+   },
+   "answer": "C",
+   "explanation": "New schools é plural (were), o verbo vai para o particípio (built) e o antigo sujeito vira agente com by."
+  },
+  {
+   "id": "qt-18",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-agente",
+   "prompt": "Em qual frase o agente foi omitido por ser desconhecido?",
+   "options": {
+    "A": "The song was written by Bob Marley.",
+    "B": "The film was directed by Fernando Meirelles.",
+    "C": "My bike was stolen last night.",
+    "D": "The law was approved by the Senate."
+   },
+   "answer": "C",
+   "explanation": "Ninguém sabe quem roubou a bicicleta, então o agente (by...) some. Nas outras frases o agente aparece."
+  },
+  {
+   "id": "qt-19",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-agente",
+   "prompt": "Qual preposição introduz o agente da passiva em inglês?",
+   "options": {
+    "A": "by",
+    "B": "from",
+    "C": "of",
+    "D": "to"
+   },
+   "answer": "A",
+   "explanation": "O agente vem sempre depois de by: The book was written by Machado de Assis."
+  },
+  {
+   "id": "qt-20",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-modal",
+   "prompt": "Complete: \"Recyclable materials should ___ separately.\"",
+   "options": {
+    "A": "be collect",
+    "B": "been collected",
+    "C": "be collected",
+    "D": "collected"
+   },
+   "answer": "C",
+   "explanation": "Com modal (should, must, can, will): modal + be + particípio."
+  },
+  {
+   "id": "qt-21",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-modal",
+   "prompt": "Passe para a voz passiva: \"People must respect the rules.\"",
+   "options": {
+    "A": "The rules must be respect.",
+    "B": "The rules must respected.",
+    "C": "The rules must are respected.",
+    "D": "The rules must be respected."
+   },
+   "answer": "D",
+   "explanation": "Modal + be + particípio: must be respected. Depois de modal o verbo to be fica na forma base (be)."
+  },
+  {
+   "id": "qt-22",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-modal",
+   "prompt": "Complete: \"This problem can ___ with simple solutions.\"",
+   "options": {
+    "A": "solved",
+    "B": "be solving",
+    "C": "solve",
+    "D": "be solved"
+   },
+   "answer": "D",
+   "explanation": "O problema não resolve nada sozinho: ele é resolvido. Can + be + particípio."
+  },
+  {
+   "id": "qt-23",
+   "type": "text",
+   "themeId": "passive-voice",
+   "skill": "pv-modal",
+   "prompt": "Em avisos como \"Mobile phones must be turned off\", qual estrutura é usada?",
+   "options": {
+    "A": "Present Perfect na voz ativa.",
+    "B": "Modal + verbo no gerúndio.",
+    "C": "Modal + be + particípio (voz passiva).",
+    "D": "Simple Past na voz ativa."
+   },
+   "answer": "C",
+   "explanation": "Must be turned off = devem ser desligados. É a passiva com modal, muito comum em avisos e regras."
+  },
+  {
+   "id": "qt-24",
+   "type": "text",
+   "themeId": "tag-questions",
+   "skill": "tq-polaridade",
+   "prompt": "Complete: \"Climate change is a serious problem, ___?\"",
+   "options": {
+    "A": "doesn't it",
+    "B": "wasn't it",
+    "C": "is it",
+    "D": "isn't it"
+   },
+   "answer": "D",
+   "explanation": "Frase afirmativa com is pede tag negativa com o mesmo verbo: isn't it?"
+  },
+  {
+   "id": "qt-25",
+   "type": "text",
+   "themeId": "tag-questions",
+   "skill": "tq-polaridade",
+   "prompt": "Complete: \"You haven't finished the essay yet, ___?\"",
+   "options": {
+    "A": "have you",
+    "B": "haven't you",
+    "C": "do you",
+    "D": "did you"
+   },
+   "answer": "A",
+   "explanation": "Frase negativa (haven't) pede tag afirmativa com o mesmo auxiliar: have you?"
+  },
+  {
+   "id": "qt-26",
+   "type": "text",
+   "themeId": "tag-questions",
+   "skill": "tq-polaridade",
+   "prompt": "Complete: \"She never misses class, ___?\"",
+   "options": {
+    "A": "did she",
+    "B": "does she",
+    "C": "is she",
+    "D": "doesn't she"
+   },
+   "answer": "B",
+   "explanation": "Never deixa a frase negativa, então a tag fica afirmativa. Misses está no presente: does she?"
+  },
+  {
+   "id": "qt-27",
+   "type": "text",
+   "themeId": "tag-questions",
+   "skill": "tq-auxiliar",
+   "prompt": "Complete: \"Your brother studied in Curitiba, ___?\"",
+   "options": {
+    "A": "wasn't he",
+    "B": "hasn't he",
+    "C": "doesn't he",
+    "D": "didn't he"
+   },
+   "answer": "D",
+   "explanation": "Studied está no Simple Past sem auxiliar, então a tag usa did: didn't he?"
+  },
+  {
+   "id": "qt-28",
+   "type": "text",
+   "themeId": "tag-questions",
+   "skill": "tq-auxiliar",
+   "prompt": "Complete: \"Students can use dictionaries in the test, ___?\"",
+   "options": {
+    "A": "don't they",
+    "B": "couldn't they",
+    "C": "can't they",
+    "D": "aren't they"
+   },
+   "answer": "C",
+   "explanation": "Quando a frase tem modal, a tag repete o mesmo modal: can → can't they?"
+  },
+  {
+   "id": "qt-29",
+   "type": "text",
+   "themeId": "tag-questions",
+   "skill": "tq-excecoes",
+   "prompt": "Complete: \"Everyone was at the meeting, ___?\"",
+   "options": {
+    "A": "didn't they",
+    "B": "wasn't it",
+    "C": "wasn't he",
+    "D": "weren't they"
+   },
+   "answer": "D",
+   "explanation": "Everyone, everybody e nobody viram they na tag. Com they, was passa para weren't."
+  },
+  {
+   "id": "qt-30",
+   "type": "text",
+   "themeId": "tag-questions",
+   "skill": "tq-excecoes",
+   "prompt": "Complete: \"There isn't enough water in the region, ___?\"",
+   "options": {
+    "A": "is there",
+    "B": "isn't there",
+    "C": "is it",
+    "D": "isn't it"
+   },
+   "answer": "A",
+   "explanation": "Com there is/there are a tag repete there. A frase é negativa, então: is there?"
+  },
+  {
+   "id": "qt-31",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-3pessoa",
+   "prompt": "Complete: \"The Earth ___ around the Sun.\"",
+   "options": {
+    "A": "goes",
+    "B": "going",
+    "C": "gos",
+    "D": "go"
+   },
+   "answer": "A",
+   "explanation": "The Earth = it. Verbos terminados em -o ganham -es na 3ª pessoa: goes."
+  },
+  {
+   "id": "qt-32",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-3pessoa",
+   "prompt": "Complete: \"My sister ___ English at a public school.\"",
+   "options": {
+    "A": "teaches",
+    "B": "teaching",
+    "C": "teachs",
+    "D": "teach"
+   },
+   "answer": "A",
+   "explanation": "Terminação -ch ganha -es com he/she/it: teaches."
+  },
+  {
+   "id": "qt-33",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-3pessoa",
+   "prompt": "Complete: \"The project ___ to reduce pollution in big cities.\"",
+   "options": {
+    "A": "try",
+    "B": "tryes",
+    "C": "trys",
+    "D": "tries"
+   },
+   "answer": "D",
+   "explanation": "Consoante + y: troca o y por -ies. Try → tries."
+  },
+  {
+   "id": "qt-34",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-3pessoa",
+   "prompt": "Em qual frase o verbo está conjugado corretamente?",
+   "options": {
+    "A": "He watchs the news every night.",
+    "B": "He watching the news every night.",
+    "C": "He watches the news every night.",
+    "D": "He watch the news every night."
+   },
+   "answer": "C",
+   "explanation": "Com he, watch ganha -es (termina em -ch): watches."
+  },
+  {
+   "id": "qt-35",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-auxiliar",
+   "prompt": "Qual é a negativa de \"The city has a good public transport system\"?",
+   "options": {
+    "A": "The city don't have a good public transport system.",
+    "B": "The city doesn't have a good public transport system.",
+    "C": "The city doesn't has a good public transport system.",
+    "D": "The city not have a good public transport system."
+   },
+   "answer": "B",
+   "explanation": "Com it usamos doesn't, e o verbo volta para a forma base: has → have."
+  },
+  {
+   "id": "qt-36",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-auxiliar",
+   "prompt": "Complete a pergunta: \"___ teenagers spend too much time online?\"",
+   "options": {
+    "A": "Does",
+    "B": "Is",
+    "C": "Do",
+    "D": "Are"
+   },
+   "answer": "C",
+   "explanation": "Teenagers é plural (they), então a pergunta usa do."
+  },
+  {
+   "id": "qt-37",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-auxiliar",
+   "prompt": "Complete: \"Water ___ boil at 50 °C at sea level.\"",
+   "options": {
+    "A": "not",
+    "B": "isn't",
+    "C": "don't",
+    "D": "doesn't"
+   },
+   "answer": "D",
+   "explanation": "Water = it. Negativa no Simple Present com it: doesn't + verbo base."
+  },
+  {
+   "id": "qt-38",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-auxiliar",
+   "prompt": "Complete: \"How often ___ your school offer English classes?\"",
+   "options": {
+    "A": "do",
+    "B": "are",
+    "C": "does",
+    "D": "is"
+   },
+   "answer": "C",
+   "explanation": "Your school = it, então o auxiliar da pergunta é does."
+  },
+  {
+   "id": "qt-39",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-uso",
+   "prompt": "Em qual frase o Simple Present indica uma verdade científica?",
+   "options": {
+    "A": "They will travel next week.",
+    "B": "I am studying for the test now.",
+    "C": "Plants produce oxygen.",
+    "D": "We visited the museum yesterday."
+   },
+   "answer": "C",
+   "explanation": "Verdades gerais e fatos científicos ficam no Simple Present. As outras estão no Present Continuous, no Simple Past e no futuro."
+  },
+  {
+   "id": "qt-40",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-uso",
+   "prompt": "\"I usually read the news before school.\" O Simple Present indica:",
+   "options": {
+    "A": "Um hábito.",
+    "B": "Uma ação acontecendo agora.",
+    "C": "Uma ação terminada no passado.",
+    "D": "Um plano para o futuro."
+   },
+   "answer": "A",
+   "explanation": "Usually marca rotina. Hábitos são o uso mais cobrado do Simple Present."
+  },
+  {
+   "id": "qt-41",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-uso",
+   "prompt": "Complete: \"According to the official schedule, the exam ___ at 1 p.m. tomorrow.\"",
+   "options": {
+    "A": "is start",
+    "B": "starts",
+    "C": "starting",
+    "D": "started"
+   },
+   "answer": "B",
+   "explanation": "Horários fixos e programações oficiais usam Simple Present, mesmo falando do futuro."
+  },
+  {
+   "id": "qt-42",
+   "type": "text",
+   "themeId": "simple-present",
+   "skill": "sp-uso",
+   "prompt": "Quais advérbios costumam aparecer com o Simple Present?",
+   "options": {
+    "A": "always, usually, often, never",
+    "B": "tomorrow, next week, soon",
+    "C": "right now, at the moment",
+    "D": "yesterday, last year, ago"
+   },
+   "answer": "A",
+   "explanation": "Advérbios de frequência indicam hábito, o uso típico do Simple Present."
+  },
+  {
+   "id": "qt-43",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-irregular",
+   "prompt": "Complete: \"Pedro Álvares Cabral ___ to Brazil in 1500.\"",
+   "options": {
+    "A": "came",
+    "B": "come",
+    "C": "comed",
+    "D": "has come"
+   },
+   "answer": "A",
+   "explanation": "Come é irregular: come, came, come. Data no passado pede Simple Past."
+  },
+  {
+   "id": "qt-44",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-irregular",
+   "prompt": "Qual é o passado simples de \"begin\"?",
+   "options": {
+    "A": "begun",
+    "B": "begined",
+    "C": "began",
+    "D": "beginned"
+   },
+   "answer": "C",
+   "explanation": "Begin, began, begun. Begun é o particípio, usado com have ou na passiva."
+  },
+  {
+   "id": "qt-45",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-irregular",
+   "prompt": "Complete: \"The scientists ___ an important discovery last year.\"",
+   "options": {
+    "A": "maked",
+    "B": "make",
+    "C": "made",
+    "D": "making"
+   },
+   "answer": "C",
+   "explanation": "Make é irregular: make, made, made."
+  },
+  {
+   "id": "qt-46",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-irregular",
+   "prompt": "Complete: \"Yesterday I ___ an interesting article about recycling.\"",
+   "options": {
+    "A": "readed",
+    "B": "reads",
+    "C": "reading",
+    "D": "read"
+   },
+   "answer": "D",
+   "explanation": "Read não muda na escrita (read, read, read), só na pronúncia: no passado fala-se \"red\"."
+  },
+  {
+   "id": "qt-47",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-regular",
+   "prompt": "Complete: \"The students ___ (plan) a campaign against bullying last semester.\"",
+   "options": {
+    "A": "planed",
+    "B": "planned",
+    "C": "planded",
+    "D": "plans"
+   },
+   "answer": "B",
+   "explanation": "Sílaba tônica terminada em consoante-vogal-consoante dobra a consoante: plan → planned."
+  },
+  {
+   "id": "qt-48",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-regular",
+   "prompt": "Complete: \"The population of São Paulo ___ (increase) a lot in the 20th century.\"",
+   "options": {
+    "A": "increased",
+    "B": "increase",
+    "C": "increaseed",
+    "D": "increasing"
+   },
+   "answer": "A",
+   "explanation": "Verbo terminado em -e recebe só -d: increase → increased."
+  },
+  {
+   "id": "qt-49",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-regular",
+   "prompt": "Qual é o passado simples de \"carry\"?",
+   "options": {
+    "A": "carryed",
+    "B": "carried",
+    "C": "carries",
+    "D": "carreid"
+   },
+   "answer": "B",
+   "explanation": "Consoante + y: troca o y por -ied. Carry → carried."
+  },
+  {
+   "id": "qt-50",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-regular",
+   "prompt": "Em qual frase o verbo está corretamente no passado?",
+   "options": {
+    "A": "They stops the car.",
+    "B": "They stoped the car.",
+    "C": "They stopping the car.",
+    "D": "They stopped the car."
+   },
+   "answer": "D",
+   "explanation": "Stop termina em consoante-vogal-consoante: dobra o p antes do -ed."
+  },
+  {
+   "id": "qt-51",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-did",
+   "prompt": "Qual é a negativa de \"She went to school yesterday\"?",
+   "options": {
+    "A": "She not went to school yesterday.",
+    "B": "She didn't went to school yesterday.",
+    "C": "She didn't go to school yesterday.",
+    "D": "She doesn't went to school yesterday."
+   },
+   "answer": "C",
+   "explanation": "Didn't já marca o passado, então o verbo volta para a forma base: go."
+  },
+  {
+   "id": "qt-52",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-did",
+   "prompt": "Complete a pergunta: \"___ you watch the debate last night?\"",
+   "options": {
+    "A": "Were",
+    "B": "Do",
+    "C": "Did",
+    "D": "Does"
+   },
+   "answer": "C",
+   "explanation": "Last night é passado; pergunta com verbo principal usa did."
+  },
+  {
+   "id": "qt-53",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-did",
+   "prompt": "Qual pergunta está correta?",
+   "options": {
+    "A": "Where do they lived in 2010?",
+    "B": "Where did they lived in 2010?",
+    "C": "Where they lived in 2010?",
+    "D": "Where did they live in 2010?"
+   },
+   "answer": "D",
+   "explanation": "Pergunta no passado: Wh- + did + sujeito + verbo base."
+  },
+  {
+   "id": "qt-54",
+   "type": "text",
+   "themeId": "simple-past",
+   "skill": "pa-did",
+   "prompt": "Complete: \"The government ___ (not / approve) the new law in 2019.\"",
+   "options": {
+    "A": "wasn't approve",
+    "B": "didn't approve",
+    "C": "doesn't approve",
+    "D": "didn't approved"
+   },
+   "answer": "B",
+   "explanation": "Didn't + verbo base. O -ed não aparece depois de didn't."
+  },
+  {
+   "id": "qt-55",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "prompt": "Em \"Researchers carried out a study with 500 students\", \"carried out\" significa:",
+   "options": {
+    "A": "carregaram",
+    "B": "realizaram",
+    "C": "adiaram",
+    "D": "cancelaram"
+   },
+   "answer": "B",
+   "explanation": "Carry out = realizar, conduzir (uma pesquisa, um experimento). Aparece muito em textos científicos de vestibular."
+  },
+  {
+   "id": "qt-56",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "prompt": "Em \"The article points out the risks of fake news\", \"points out\" significa:",
+   "options": {
+    "A": "exagera",
+    "B": "destaca, chama atenção para",
+    "C": "ignora",
+    "D": "esconde"
+   },
+   "answer": "B",
+   "explanation": "Point out = apontar, destacar. Comum em textos argumentativos."
+  },
+  {
+   "id": "qt-57",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "prompt": "Em \"Scientists found out that bees are disappearing\", \"found out\" significa:",
+   "options": {
+    "A": "inventaram",
+    "B": "esqueceram",
+    "C": "negaram",
+    "D": "descobriram"
+   },
+   "answer": "D",
+   "explanation": "Find out = descobrir (uma informação). Found é o passado de find."
+  },
+  {
+   "id": "qt-58",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "prompt": "Em \"Many people gave up smoking after the campaign\", \"gave up\" significa:",
+   "options": {
+    "A": "começaram a",
+    "B": "aumentaram",
+    "C": "pararam de, desistiram de",
+    "D": "incentivaram"
+   },
+   "answer": "C",
+   "explanation": "Give up = desistir, abandonar um hábito."
+  },
+  {
+   "id": "qt-59",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-significado",
+   "prompt": "Em \"The company came up with a new solution\", \"came up with\" significa:",
+   "options": {
+    "A": "comprou",
+    "B": "criou, teve a ideia de",
+    "C": "rejeitou",
+    "D": "copiou"
+   },
+   "answer": "B",
+   "explanation": "Come up with = ter uma ideia, propor uma solução."
+  },
+  {
+   "id": "qt-60",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-particula",
+   "prompt": "Complete: \"Doctors say we need to ___ the amount of sugar we eat.\"",
+   "options": {
+    "A": "cut up",
+    "B": "cut in",
+    "C": "cut across",
+    "D": "cut down on"
+   },
+   "answer": "D",
+   "explanation": "Cut down on = reduzir o consumo de algo."
+  },
+  {
+   "id": "qt-61",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-particula",
+   "prompt": "Complete: \"To save energy, ___ the lights when you leave the room.\"",
+   "options": {
+    "A": "turn into",
+    "B": "turn on",
+    "C": "turn up",
+    "D": "turn off"
+   },
+   "answer": "D",
+   "explanation": "Turn off = desligar. Turn on é o contrário: ligar."
+  },
+  {
+   "id": "qt-62",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-particula",
+   "prompt": "Complete: \"She is ___ a new job because hers is too far from home.\"",
+   "options": {
+    "A": "looking after",
+    "B": "looking forward",
+    "C": "looking up to",
+    "D": "looking for"
+   },
+   "answer": "D",
+   "explanation": "Look for = procurar. Look after = cuidar; look up to = admirar."
+  },
+  {
+   "id": "qt-63",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-particula",
+   "prompt": "Complete: \"In a few weeks, the caterpillar ___ a butterfly.\"",
+   "options": {
+    "A": "turns into",
+    "B": "turns down",
+    "C": "turns up",
+    "D": "turns off"
+   },
+   "answer": "A",
+   "explanation": "Turn into = transformar-se em."
+  },
+  {
+   "id": "qt-64",
+   "type": "text",
+   "themeId": "phrasal-verbs",
+   "skill": "ph-particula",
+   "prompt": "Complete: \"Volunteers ___ an online campaign to help flood victims.\"",
+   "options": {
+    "A": "set up",
+    "B": "set off",
+    "C": "set aside",
+    "D": "set back"
+   },
+   "answer": "A",
+   "explanation": "Set up = criar, montar, organizar. Set aside = reservar; set off = partir ou disparar."
+  },
+  {
+   "id": "qa-1",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-detalhe",
+   "prompt": "Segundo o áudio, reciclar uma lata de alumínio economiza energia para:",
+   "options": {
+    "A": "ligar um computador por trinta minutos",
+    "B": "manter uma TV ligada por três horas",
+    "C": "iluminar uma casa por uma semana",
+    "D": "carregar um celular por três dias"
+   },
+   "answer": "B",
+   "explanation": "\"Power a TV for three hours\" = manter uma TV ligada por três horas.",
+   "tts": "Recycling one aluminum can saves enough energy to power a TV for three hours.",
+   "transcript": "Recycling one aluminum can saves enough energy to power a TV for three hours."
+  },
+  {
+   "id": "qa-2",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-detalhe",
+   "prompt": "O que acontece com adolescentes que dormem menos de oito horas?",
+   "options": {
+    "A": "Têm dificuldade de concentração na escola.",
+    "B": "Praticam mais esportes.",
+    "C": "Tiram notas mais altas.",
+    "D": "Faltam mais às aulas."
+   },
+   "answer": "A",
+   "explanation": "\"Have trouble concentrating\" = ter dificuldade de se concentrar.",
+   "tts": "Teenagers who sleep less than eight hours a night often have trouble concentrating at school.",
+   "transcript": "Teenagers who sleep less than eight hours a night often have trouble concentrating at school."
+  },
+  {
+   "id": "qa-3",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-detalhe",
+   "prompt": "Segundo o áudio, de onde vem a maior parte do plástico nos oceanos?",
+   "options": {
+    "A": "Dos rios.",
+    "B": "Dos navios.",
+    "C": "Das praias.",
+    "D": "Das fábricas."
+   },
+   "answer": "A",
+   "explanation": "\"Comes from rivers, not from ships\" = vem dos rios, e não dos navios.",
+   "tts": "Most of the plastic in the ocean comes from rivers, not from ships.",
+   "transcript": "Most of the plastic in the ocean comes from rivers, not from ships."
+  },
+  {
+   "id": "qa-4",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-detalhe",
+   "prompt": "Qual é a ideia principal da frase?",
+   "options": {
+    "A": "Os jovens não usam a internet.",
+    "B": "A internet acabou com a solidão.",
+    "C": "Os jovens preferem encontros presenciais.",
+    "D": "A internet conecta pessoas, mas muitos jovens se sentem sozinhos."
+   },
+   "answer": "D",
+   "explanation": "\"Although\" introduz um contraste: apesar de conectar pessoas, muitos jovens dizem se sentir sozinhos (lonely).",
+   "tts": "Although the internet connects people, many young people say they feel lonely.",
+   "transcript": "Although the internet connects people, many young people say they feel lonely."
+  },
+  {
+   "id": "qa-5",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-numeros",
+   "prompt": "Que parte da superfície da Terra é coberta por água, segundo o áudio?",
+   "options": {
+    "A": "Cerca de 30%",
+    "B": "Cerca de 75%",
+    "C": "Cerca de 17%",
+    "D": "Cerca de 70%"
+   },
+   "answer": "D",
+   "explanation": "\"Seventy\" = 70. Cuidado para não confundir com seventeen (17).",
+   "tts": "About seventy percent of the Earth's surface is covered by water.",
+   "transcript": "About seventy percent of the Earth's surface is covered by water."
+  },
+  {
+   "id": "qa-6",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-numeros",
+   "prompt": "A que horas o museu abre?",
+   "options": {
+    "A": "9h30",
+    "B": "9h15",
+    "C": "5h30",
+    "D": "9h50"
+   },
+   "answer": "B",
+   "explanation": "\"Nine fifteen\" = 9h15. \"Five thirty\" (5h30) é o horário em que ele fecha.",
+   "tts": "The museum opens at nine fifteen and closes at five thirty.",
+   "transcript": "The museum opens at nine fifteen and closes at five thirty."
+  },
+  {
+   "id": "qa-7",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-numeros",
+   "prompt": "Quanto um estudante paga pelo ingresso?",
+   "options": {
+    "A": "40 reais",
+    "B": "14 reais",
+    "C": "50 reais",
+    "D": "20 reais"
+   },
+   "answer": "D",
+   "explanation": "\"Forty\" = 40 e \"half price\" = metade do preço, então o estudante paga 20 reais.",
+   "tts": "The concert tickets cost forty reais, but students pay half price.",
+   "transcript": "The concert tickets cost forty reais, but students pay half price."
+  },
+  {
+   "id": "qa-8",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-numeros",
+   "prompt": "Em que ano a Constituição brasileira atual foi aprovada?",
+   "options": {
+    "A": "1980",
+    "B": "1968",
+    "C": "1988",
+    "D": "1898"
+   },
+   "answer": "C",
+   "explanation": "\"Nineteen eighty-eight\" = 1988. Em inglês, os anos costumam ser lidos em pares: 19 / 88.",
+   "tts": "The current Brazilian Constitution was approved in nineteen eighty-eight.",
+   "transcript": "The current Brazilian Constitution was approved in nineteen eighty-eight."
+  },
+  {
+   "id": "qa-9",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-estrutura",
+   "prompt": "Qual estrutura gramatical aparece na frase?",
+   "options": {
+    "A": "Tag question.",
+    "B": "Futuro com will.",
+    "C": "Voz passiva no passado.",
+    "D": "Simple Present na voz ativa."
+   },
+   "answer": "C",
+   "explanation": "\"Was built\" = was + particípio, a voz passiva no passado.",
+   "tts": "The new hospital was built in less than a year.",
+   "transcript": "The new hospital was built in less than a year."
+  },
+  {
+   "id": "qa-10",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-estrutura",
+   "prompt": "O que o trecho final \"haven't you?\" indica?",
+   "options": {
+    "A": "Uma tag question pedindo confirmação.",
+    "B": "Uma ordem.",
+    "C": "Uma pergunta sobre o futuro.",
+    "D": "A negação da frase inteira."
+   },
+   "answer": "A",
+   "explanation": "\"Haven't you?\" é uma tag question: frase afirmativa (you have sent) com tag negativa, pedindo confirmação.",
+   "tts": "You've already sent your application, haven't you?",
+   "transcript": "You've already sent your application, haven't you?"
+  },
+  {
+   "id": "qa-11",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-estrutura",
+   "prompt": "Em que tempo verbal está a frase?",
+   "options": {
+    "A": "Futuro com will.",
+    "B": "Simple Present, na forma negativa.",
+    "C": "Present Continuous.",
+    "D": "Simple Past, na forma negativa."
+   },
+   "answer": "B",
+   "explanation": "\"Doesn't use\" = doesn't + verbo base, a negativa do Simple Present.",
+   "tts": "She doesn't use social media during the week.",
+   "transcript": "She doesn't use social media during the week."
+  },
+  {
+   "id": "qa-12",
+   "type": "audio",
+   "themeId": "listening",
+   "skill": "li-estrutura",
+   "prompt": "O que significa \"didn't give up\" no áudio?",
+   "options": {
+    "A": "Não ajudaram.",
+    "B": "Não começaram.",
+    "C": "Não desistiram.",
+    "D": "Não voltaram."
+   },
+   "answer": "C",
+   "explanation": "\"Give up\" = desistir. \"Didn't give up\" = não desistiram (Simple Past negativo).",
+   "tts": "They didn't give up, even after many problems.",
+   "transcript": "They didn't give up, even after many problems."
+  },
+  {
+   "id": "qt-65",
+   "type": "text",
+   "themeId": "present-continuous",
+   "skill": "pc-forma",
+   "prompt": "Complete: \"Look! It ___ outside.\"",
+   "options": {
+    "A": "are raining",
+    "B": "rains",
+    "C": "is raining",
+    "D": "raining"
+   },
+   "answer": "C",
+   "explanation": "Look! mostra que está acontecendo agora. It pede is: is raining."
+  },
+  {
+   "id": "qt-66",
+   "type": "text",
+   "themeId": "present-continuous",
+   "skill": "pc-forma",
+   "prompt": "Complete: \"The students ___ for the exam right now.\"",
+   "options": {
+    "A": "is studying",
+    "B": "studies",
+    "C": "studying",
+    "D": "are studying"
+   },
+   "answer": "D",
+   "explanation": "Right now = agora. The students é plural (they): are + -ing."
+  },
+  {
+   "id": "qt-67",
+   "type": "text",
+   "themeId": "present-continuous",
+   "skill": "pc-forma",
+   "prompt": "Qual é a forma -ing correta de \"run\"?",
+   "options": {
+    "A": "runing",
+    "B": "running",
+    "C": "runs",
+    "D": "runnning"
+   },
+   "answer": "B",
+   "explanation": "Run termina em consoante-vogal-consoante: dobra o n antes do -ing."
+  },
+  {
+   "id": "qt-68",
+   "type": "text",
+   "themeId": "present-continuous",
+   "skill": "pc-forma",
+   "prompt": "Qual é a negativa de \"She is working today\"?",
+   "options": {
+    "A": "She isn't work today.",
+    "B": "She not working today.",
+    "C": "She isn't working today.",
+    "D": "She doesn't working today."
+   },
+   "answer": "C",
+   "explanation": "A negativa do Present Continuous só coloca not depois do to be: is not (isn't) + -ing."
+  },
+  {
+   "id": "qt-69",
+   "type": "text",
+   "themeId": "present-continuous",
+   "skill": "pc-uso",
+   "prompt": "Em qual frase o Present Continuous está usado corretamente?",
+   "options": {
+    "A": "She is liking chocolate.",
+    "B": "I am reading an article about climate change at the moment.",
+    "C": "I am knowing the answer.",
+    "D": "They are wanting a new car."
+   },
+   "answer": "B",
+   "explanation": "Know, like e want são verbos de estado e ficam no Simple Present (I know, she likes, they want)."
+  },
+  {
+   "id": "qt-70",
+   "type": "text",
+   "themeId": "present-continuous",
+   "skill": "pc-uso",
+   "prompt": "Complete: \"Every morning, my father ___ the newspaper.\"",
+   "options": {
+    "A": "are reading",
+    "B": "reading",
+    "C": "reads",
+    "D": "is reading"
+   },
+   "answer": "C",
+   "explanation": "Every morning indica hábito, então o tempo é o Simple Present: reads."
+  },
+  {
+   "id": "qt-71",
+   "type": "text",
+   "themeId": "present-continuous",
+   "skill": "pc-uso",
+   "prompt": "\"Global temperatures are rising.\" A frase descreve:",
+   "options": {
+    "A": "Um hábito do passado.",
+    "B": "Uma ordem.",
+    "C": "Uma ação já concluída.",
+    "D": "Uma mudança que está em andamento."
+   },
+   "answer": "D",
+   "explanation": "O Present Continuous também descreve tendências e mudanças em curso, muito comum em textos sobre meio ambiente."
+  },
+  {
+   "id": "qt-72",
+   "type": "text",
+   "themeId": "present-continuous",
+   "skill": "pc-uso",
+   "prompt": "Quais expressões costumam acompanhar o Present Continuous?",
+   "options": {
+    "A": "in 1990, last year, then",
+    "B": "now, right now, at the moment, currently",
+    "C": "every day, usually, always",
+    "D": "yesterday, last week, ago"
+   },
+   "answer": "B",
+   "explanation": "Essas expressões marcam o momento presente, típico do Present Continuous."
+  },
+  {
+   "id": "qt-73",
+   "type": "text",
+   "themeId": "past-continuous",
+   "skill": "pac-forma",
+   "prompt": "Complete: \"At 8 p.m. yesterday, I ___ dinner.\"",
+   "options": {
+    "A": "were having",
+    "B": "am having",
+    "C": "was having",
+    "D": "have had"
+   },
+   "answer": "C",
+   "explanation": "Momento específico do passado + ação em andamento: was + -ing (com I, o to be é was)."
+  },
+  {
+   "id": "qt-74",
+   "type": "text",
+   "themeId": "past-continuous",
+   "skill": "pac-forma",
+   "prompt": "Complete: \"They ___ football when it started to rain.\"",
+   "options": {
+    "A": "was playing",
+    "B": "plays",
+    "C": "are playing",
+    "D": "were playing"
+   },
+   "answer": "D",
+   "explanation": "They pede were. Jogar estava em andamento quando a chuva começou."
+  },
+  {
+   "id": "qt-75",
+   "type": "text",
+   "themeId": "past-continuous",
+   "skill": "pac-forma",
+   "prompt": "Qual é a negativa de \"He was sleeping\"?",
+   "options": {
+    "A": "He wasn't sleep.",
+    "B": "He wasn't sleeping.",
+    "C": "He didn't sleeping.",
+    "D": "He weren't sleeping."
+   },
+   "answer": "B",
+   "explanation": "A negativa coloca not depois de was: wasn't + -ing."
+  },
+  {
+   "id": "qt-76",
+   "type": "text",
+   "themeId": "past-continuous",
+   "skill": "pac-forma",
+   "prompt": "Complete a pergunta: \"What ___ you doing when I called?\"",
+   "options": {
+    "A": "are",
+    "B": "was",
+    "C": "did",
+    "D": "were"
+   },
+   "answer": "D",
+   "explanation": "You pede were; a pergunta é sobre uma ação em andamento no passado."
+  },
+  {
+   "id": "qt-77",
+   "type": "text",
+   "themeId": "past-continuous",
+   "skill": "pac-uso",
+   "prompt": "\"I was walking home when I saw the accident.\" Qual ação interrompeu a outra?",
+   "options": {
+    "A": "Nenhuma: as duas são hábitos.",
+    "B": "As duas aconteceram em dias diferentes.",
+    "C": "I saw the accident (vi o acidente).",
+    "D": "I was walking home (estava andando para casa)."
+   },
+   "answer": "C",
+   "explanation": "A ação curta no Simple Past (saw) interrompe a ação longa no Past Continuous (was walking)."
+  },
+  {
+   "id": "qt-78",
+   "type": "text",
+   "themeId": "past-continuous",
+   "skill": "pac-uso",
+   "prompt": "Complete: \"While she ___, her brother was cooking.\"",
+   "options": {
+    "A": "is studying",
+    "B": "has studied",
+    "C": "was studying",
+    "D": "studies"
+   },
+   "answer": "C",
+   "explanation": "While liga duas ações simultâneas no passado; as duas ficam no Past Continuous."
+  },
+  {
+   "id": "qt-79",
+   "type": "text",
+   "themeId": "past-continuous",
+   "skill": "pac-uso",
+   "prompt": "Complete: \"When the teacher arrived, the students ___ loudly.\"",
+   "options": {
+    "A": "talk",
+    "B": "was talking",
+    "C": "are talking",
+    "D": "were talking"
+   },
+   "answer": "D",
+   "explanation": "A conversa estava em andamento quando o professor chegou. Students = they → were."
+  },
+  {
+   "id": "qt-80",
+   "type": "text",
+   "themeId": "past-continuous",
+   "skill": "pac-uso",
+   "prompt": "Em qual frase o Past Continuous indica uma ação em andamento num momento do passado?",
+   "options": {
+    "A": "At midnight, we were still working on the project.",
+    "B": "We work on the project every day.",
+    "C": "We will work on the project tomorrow.",
+    "D": "We have worked on the project."
+   },
+   "answer": "A",
+   "explanation": "At midnight marca um momento do passado e were working mostra a ação em andamento."
+  },
+  {
+   "id": "qt-81",
+   "type": "text",
+   "themeId": "present-perfect",
+   "skill": "pp-forma",
+   "prompt": "Complete: \"She ___ never ___ to Europe.\"",
+   "options": {
+    "A": "has / been",
+    "B": "is / been",
+    "C": "have / been",
+    "D": "has / went"
+   },
+   "answer": "A",
+   "explanation": "She pede has; o particípio de be é been. Has never been = nunca foi."
+  },
+  {
+   "id": "qt-82",
+   "type": "text",
+   "themeId": "present-perfect",
+   "skill": "pp-forma",
+   "prompt": "Complete: \"We ___ this movie three times.\"",
+   "options": {
+    "A": "seen",
+    "B": "have seen",
+    "C": "has seen",
+    "D": "have saw"
+   },
+   "answer": "B",
+   "explanation": "We pede have; o particípio de see é seen (saw é o passado simples)."
+  },
+  {
+   "id": "qt-83",
+   "type": "text",
+   "themeId": "present-perfect",
+   "skill": "pp-forma",
+   "prompt": "Complete: \"Scientists ___ a new species in the Amazon.\"",
+   "options": {
+    "A": "discovering",
+    "B": "have discovered",
+    "C": "have discover",
+    "D": "has discovered"
+   },
+   "answer": "B",
+   "explanation": "Scientists é plural: have + particípio (discovered). O resultado da descoberta importa agora."
+  },
+  {
+   "id": "qt-84",
+   "type": "text",
+   "themeId": "present-perfect",
+   "skill": "pp-forma",
+   "prompt": "Qual pergunta está correta?",
+   "options": {
+    "A": "Has you ever visited Salvador?",
+    "B": "Did you ever visited Salvador?",
+    "C": "Have you ever visit Salvador?",
+    "D": "Have you ever visited Salvador?"
+   },
+   "answer": "D",
+   "explanation": "Pergunta sobre experiência: Have + sujeito + ever + particípio."
+  },
+  {
+   "id": "qt-85",
+   "type": "text",
+   "themeId": "present-perfect",
+   "skill": "pp-uso",
+   "prompt": "Complete: \"I ___ in Curitiba since 2020.\"",
+   "options": {
+    "A": "have lived",
+    "B": "live",
+    "C": "lived",
+    "D": "was living"
+   },
+   "answer": "A",
+   "explanation": "Since 2020 indica algo que começou no passado e continua até hoje: Present Perfect."
+  },
+  {
+   "id": "qt-86",
+   "type": "text",
+   "themeId": "present-perfect",
+   "skill": "pp-uso",
+   "prompt": "Complete: \"They ___ to Rio last summer.\"",
+   "options": {
+    "A": "have gone",
+    "B": "went",
+    "C": "go",
+    "D": "have went"
+   },
+   "answer": "B",
+   "explanation": "Last summer é tempo definido no passado: Simple Past (went)."
+  },
+  {
+   "id": "qt-87",
+   "type": "text",
+   "themeId": "present-perfect",
+   "skill": "pp-uso",
+   "prompt": "Qual a diferença entre for e since no Present Perfect?",
+   "options": {
+    "A": "Since só aparece com o Simple Past.",
+    "B": "For indica o ponto de início; since indica duração.",
+    "C": "Os dois só aparecem no futuro.",
+    "D": "For indica duração (for two years); since indica o ponto de início (since 2020)."
+   },
+   "answer": "D",
+   "explanation": "For + período (for ten years). Since + ponto de partida (since Monday, since 2020)."
+  },
+  {
+   "id": "qt-88",
+   "type": "text",
+   "themeId": "present-perfect",
+   "skill": "pp-uso",
+   "prompt": "Complete: \"Have you finished your essay ___?\"",
+   "options": {
+    "A": "ago",
+    "B": "yet",
+    "C": "for",
+    "D": "since"
+   },
+   "answer": "B",
+   "explanation": "Yet vai no fim de perguntas e negativas no Present Perfect: já? / ainda não."
+  },
+  {
+   "id": "qt-89",
+   "type": "text",
+   "themeId": "future",
+   "skill": "fu-will",
+   "prompt": "Complete: \"I think robots ___ many jobs in the future.\"",
+   "options": {
+    "A": "replacing",
+    "B": "will replace",
+    "C": "will replaces",
+    "D": "are replace"
+   },
+   "answer": "B",
+   "explanation": "Previsão por opinião (I think): will + verbo base, sem -s."
+  },
+  {
+   "id": "qt-90",
+   "type": "text",
+   "themeId": "future",
+   "skill": "fu-will",
+   "prompt": "Qual é a negativa de \"They will travel tomorrow\"?",
+   "options": {
+    "A": "They won't to travel tomorrow.",
+    "B": "They willn't travel tomorrow.",
+    "C": "They don't will travel tomorrow.",
+    "D": "They won't travel tomorrow."
+   },
+   "answer": "D",
+   "explanation": "Will not = won't, seguido do verbo base sem to."
+  },
+  {
+   "id": "qt-91",
+   "type": "text",
+   "themeId": "future",
+   "skill": "fu-will",
+   "prompt": "\"The phone is ringing.\" – \"I ___ answer it!\" (decisão tomada na hora)",
+   "options": {
+    "A": "will",
+    "B": "am going to",
+    "C": "would",
+    "D": "answered"
+   },
+   "answer": "A",
+   "explanation": "Decisão tomada no momento da fala usa will."
+  },
+  {
+   "id": "qt-92",
+   "type": "text",
+   "themeId": "future",
+   "skill": "fu-will",
+   "prompt": "Em \"I will always help you\", will expressa:",
+   "options": {
+    "A": "uma promessa",
+    "B": "um hábito no passado",
+    "C": "uma obrigação",
+    "D": "uma ação acontecendo agora"
+   },
+   "answer": "A",
+   "explanation": "Will é usado em promessas: I will always help you = sempre vou te ajudar."
+  },
+  {
+   "id": "qt-93",
+   "type": "text",
+   "themeId": "future",
+   "skill": "fu-going",
+   "prompt": "Complete: \"Look at those dark clouds! It ___ rain.\"",
+   "options": {
+    "A": "is going",
+    "B": "goes to",
+    "C": "going to",
+    "D": "is going to"
+   },
+   "answer": "D",
+   "explanation": "Previsão com evidência (as nuvens) usa be going to + verbo: is going to rain."
+  },
+  {
+   "id": "qt-94",
+   "type": "text",
+   "themeId": "future",
+   "skill": "fu-going",
+   "prompt": "Complete: \"We ___ visit our grandparents next weekend. We bought the tickets.\"",
+   "options": {
+    "A": "is going to",
+    "B": "are going to",
+    "C": "going to",
+    "D": "are go to"
+   },
+   "answer": "B",
+   "explanation": "Plano já decidido (até compraram as passagens): be going to. We pede are."
+  },
+  {
+   "id": "qt-95",
+   "type": "text",
+   "themeId": "future",
+   "skill": "fu-going",
+   "prompt": "Qual frase está correta?",
+   "options": {
+    "A": "She is going to studies medicine.",
+    "B": "She is going study medicine.",
+    "C": "She going to study medicine.",
+    "D": "She is going to study medicine."
+   },
+   "answer": "D",
+   "explanation": "Estrutura completa: sujeito + am/is/are + going to + verbo base."
+  },
+  {
+   "id": "qt-96",
+   "type": "text",
+   "themeId": "future",
+   "skill": "fu-going",
+   "prompt": "\"I am meeting my friends tonight.\" Nessa frase, o Present Continuous indica:",
+   "options": {
+    "A": "um compromisso já combinado para o futuro",
+    "B": "uma ação já terminada",
+    "C": "uma ação que acontece todo dia",
+    "D": "uma promessa feita na hora"
+   },
+   "answer": "A",
+   "explanation": "Com uma referência futura (tonight), o Present Continuous indica um compromisso marcado."
+  },
+  {
+   "id": "qt-97",
+   "type": "text",
+   "themeId": "modals",
+   "skill": "mo-sentido",
+   "prompt": "Em \"You should drink more water\", should expressa:",
+   "options": {
+    "A": "certeza absoluta",
+    "B": "proibição",
+    "C": "conselho",
+    "D": "habilidade"
+   },
+   "answer": "C",
+   "explanation": "Should = deveria, usado para dar conselhos."
+  },
+  {
+   "id": "qt-98",
+   "type": "text",
+   "themeId": "modals",
+   "skill": "mo-sentido",
+   "prompt": "Qual frase indica proibição?",
+   "options": {
+    "A": "You don't have to use your phone during the test.",
+    "B": "You might use your phone during the test.",
+    "C": "You mustn't use your phone during the test.",
+    "D": "You can use your phone during the test."
+   },
+   "answer": "C",
+   "explanation": "Mustn't = não pode, é proibido. Don't have to só diz que não é necessário."
+  },
+  {
+   "id": "qt-99",
+   "type": "text",
+   "themeId": "modals",
+   "skill": "mo-sentido",
+   "prompt": "\"You don't have to bring food\" significa:",
+   "options": {
+    "A": "É proibido levar comida.",
+    "B": "Você deve levar comida.",
+    "C": "Não é necessário levar comida.",
+    "D": "Você está levando comida."
+   },
+   "answer": "C",
+   "explanation": "Don't have to = não precisa. É diferente de mustn't (proibição)."
+  },
+  {
+   "id": "qt-100",
+   "type": "text",
+   "themeId": "modals",
+   "skill": "mo-sentido",
+   "prompt": "Em \"It might rain later\", might indica:",
+   "options": {
+    "A": "obrigação",
+    "B": "habilidade",
+    "C": "possibilidade",
+    "D": "permissão"
+   },
+   "answer": "C",
+   "explanation": "Might = pode ser que, talvez."
+  },
+  {
+   "id": "qt-101",
+   "type": "text",
+   "themeId": "modals",
+   "skill": "mo-forma",
+   "prompt": "Qual frase está correta?",
+   "options": {
+    "A": "She can speak three languages.",
+    "B": "She can to speak three languages.",
+    "C": "She cans speak three languages.",
+    "D": "She can speaks three languages."
+   },
+   "answer": "A",
+   "explanation": "Depois de modal vem o verbo base: can speak. O modal não recebe -s."
+  },
+  {
+   "id": "qt-102",
+   "type": "text",
+   "themeId": "modals",
+   "skill": "mo-forma",
+   "prompt": "Complete: \"Students ___ wear a uniform at that school. It is a rule.\"",
+   "options": {
+    "A": "can",
+    "B": "might",
+    "C": "would",
+    "D": "must"
+   },
+   "answer": "D",
+   "explanation": "Regra = obrigação: must."
+  },
+  {
+   "id": "qt-103",
+   "type": "text",
+   "themeId": "modals",
+   "skill": "mo-forma",
+   "prompt": "Qual negativa está correta?",
+   "options": {
+    "A": "You shouldn't eat so much sugar.",
+    "B": "You don't should eat so much sugar.",
+    "C": "You shouldn't to eat so much sugar.",
+    "D": "You not should eat so much sugar."
+   },
+   "answer": "A",
+   "explanation": "Modais não usam do/does na negativa: should + not = shouldn't + verbo base."
+  },
+  {
+   "id": "qt-104",
+   "type": "text",
+   "themeId": "modals",
+   "skill": "mo-forma",
+   "prompt": "Complete: \"When I was a child, I ___ ride a bike, but now I can't.\"",
+   "options": {
+    "A": "could",
+    "B": "must",
+    "C": "should",
+    "D": "can"
+   },
+   "answer": "A",
+   "explanation": "Could é o passado de can: habilidade no passado."
+  },
+  {
+   "id": "qt-105",
+   "type": "text",
+   "themeId": "conditionals",
+   "skill": "co-tipos",
+   "prompt": "Complete (1ª condicional): \"If it rains tomorrow, we ___ at home.\"",
+   "options": {
+    "A": "will stay",
+    "B": "stayed",
+    "C": "would stay",
+    "D": "would have stayed"
+   },
+   "answer": "A",
+   "explanation": "Situação possível no futuro: if + presente, will + verbo."
+  },
+  {
+   "id": "qt-106",
+   "type": "text",
+   "themeId": "conditionals",
+   "skill": "co-tipos",
+   "prompt": "Complete (zero conditional): \"If you heat ice, it ___.\"",
+   "options": {
+    "A": "would melt",
+    "B": "melted",
+    "C": "melts",
+    "D": "will melted"
+   },
+   "answer": "C",
+   "explanation": "Fato científico: if + presente, presente."
+  },
+  {
+   "id": "qt-107",
+   "type": "text",
+   "themeId": "conditionals",
+   "skill": "co-tipos",
+   "prompt": "Complete: \"If I had more money, I ___ a new computer.\"",
+   "options": {
+    "A": "would bought",
+    "B": "buy",
+    "C": "would buy",
+    "D": "will buy"
+   },
+   "answer": "C",
+   "explanation": "Hipótese no presente (2ª condicional): if + passado, would + verbo base."
+  },
+  {
+   "id": "qt-108",
+   "type": "text",
+   "themeId": "conditionals",
+   "skill": "co-tipos",
+   "prompt": "Complete: \"If she had studied, she ___ the exam.\"",
+   "options": {
+    "A": "will pass",
+    "B": "had passed",
+    "C": "would have passed",
+    "D": "would pass"
+   },
+   "answer": "C",
+   "explanation": "Passado que não aconteceu (3ª condicional): if + had + particípio, would have + particípio."
+  },
+  {
+   "id": "qt-109",
+   "type": "text",
+   "themeId": "conditionals",
+   "skill": "co-forma",
+   "prompt": "Complete: \"If I ___ you, I would accept the offer.\"",
+   "options": {
+    "A": "were",
+    "B": "will be",
+    "C": "be",
+    "D": "am"
+   },
+   "answer": "A",
+   "explanation": "Na 2ª condicional usa-se were com todas as pessoas: If I were you = se eu fosse você."
+  },
+  {
+   "id": "qt-110",
+   "type": "text",
+   "themeId": "conditionals",
+   "skill": "co-forma",
+   "prompt": "\"If he had listened to me, he wouldn't have lost the job.\" A frase fala de:",
+   "options": {
+    "A": "uma verdade científica",
+    "B": "um plano para o futuro",
+    "C": "um hábito atual",
+    "D": "algo no passado que não aconteceu"
+   },
+   "answer": "D",
+   "explanation": "3ª condicional: ele não ouviu e perdeu o emprego. A frase imagina um passado diferente."
+  },
+  {
+   "id": "qt-111",
+   "type": "text",
+   "themeId": "conditionals",
+   "skill": "co-forma",
+   "prompt": "Qual frase está correta?",
+   "options": {
+    "A": "If we protect the forests, we will save many species.",
+    "B": "If we will protect the forests, we save many species.",
+    "C": "If we protect the forests, we would saved many species.",
+    "D": "If we protected the forests, we will save many species."
+   },
+   "answer": "A",
+   "explanation": "1ª condicional: presente depois do if e will na outra parte. Will não entra na parte do if."
+  },
+  {
+   "id": "qt-112",
+   "type": "text",
+   "themeId": "conditionals",
+   "skill": "co-forma",
+   "prompt": "Em \"Unless you study, you will fail\", unless equivale a:",
+   "options": {
+    "A": "when (quando)",
+    "B": "if not (a menos que)",
+    "C": "although (embora)",
+    "D": "because (porque)"
+   },
+   "answer": "B",
+   "explanation": "Unless = a menos que, se não. Unless you study = if you don't study."
+  },
+  {
+   "id": "qt-113",
+   "type": "text",
+   "themeId": "relative-pronouns",
+   "skill": "rp-escolha",
+   "prompt": "Complete: \"The woman ___ lives next door is a doctor.\"",
+   "options": {
+    "A": "who",
+    "B": "which",
+    "C": "whose",
+    "D": "where"
+   },
+   "answer": "A",
+   "explanation": "Who retoma pessoas: the woman who..."
+  },
+  {
+   "id": "qt-114",
+   "type": "text",
+   "themeId": "relative-pronouns",
+   "skill": "rp-escolha",
+   "prompt": "Complete: \"This is the city ___ I was born.\"",
+   "options": {
+    "A": "where",
+    "B": "who",
+    "C": "which",
+    "D": "whose"
+   },
+   "answer": "A",
+   "explanation": "Where retoma lugares: the city where I was born."
+  },
+  {
+   "id": "qt-115",
+   "type": "text",
+   "themeId": "relative-pronouns",
+   "skill": "rp-escolha",
+   "prompt": "Complete: \"He is the student ___ father is a famous writer.\"",
+   "options": {
+    "A": "whom",
+    "B": "which",
+    "C": "who",
+    "D": "whose"
+   },
+   "answer": "D",
+   "explanation": "Whose indica posse: o aluno cujo pai é escritor."
+  },
+  {
+   "id": "qt-116",
+   "type": "text",
+   "themeId": "relative-pronouns",
+   "skill": "rp-escolha",
+   "prompt": "Complete: \"Plastic is a material ___ takes hundreds of years to decompose.\"",
+   "options": {
+    "A": "who",
+    "B": "whose",
+    "C": "where",
+    "D": "which"
+   },
+   "answer": "D",
+   "explanation": "Which retoma coisas: a material which takes..."
+  },
+  {
+   "id": "qt-117",
+   "type": "text",
+   "themeId": "relative-pronouns",
+   "skill": "rp-uso",
+   "prompt": "Em qual frase o pronome relativo pode ser omitido?",
+   "options": {
+    "A": "The house which collapsed was very old.",
+    "B": "The movie that we watched was great.",
+    "C": "The girl whose phone was stolen called the police.",
+    "D": "The man who called you is my uncle."
+   },
+   "answer": "B",
+   "explanation": "That é objeto de watched (nós assistimos ao filme), então pode sumir: The movie we watched. Quando o pronome é sujeito ou indica posse, ele fica."
+  },
+  {
+   "id": "qt-118",
+   "type": "text",
+   "themeId": "relative-pronouns",
+   "skill": "rp-uso",
+   "prompt": "Qual frase está correta?",
+   "options": {
+    "A": "My mother, which is a teacher, loves books.",
+    "B": "My mother, whose is a teacher, loves books.",
+    "C": "My mother, that is a teacher, loves books.",
+    "D": "My mother, who is a teacher, loves books."
+   },
+   "answer": "D",
+   "explanation": "Entre vírgulas não se usa that; para pessoas, who."
+  },
+  {
+   "id": "qt-119",
+   "type": "text",
+   "themeId": "relative-pronouns",
+   "skill": "rp-uso",
+   "prompt": "Complete: \"I still remember the day ___ we met.\"",
+   "options": {
+    "A": "where",
+    "B": "which",
+    "C": "whose",
+    "D": "when"
+   },
+   "answer": "D",
+   "explanation": "When retoma expressões de tempo: the day when we met."
+  },
+  {
+   "id": "qt-120",
+   "type": "text",
+   "themeId": "relative-pronouns",
+   "skill": "rp-uso",
+   "prompt": "\"Students who study every day learn faster.\" A oração \"who study every day\":",
+   "options": {
+    "A": "é uma pergunta",
+    "B": "indica posse",
+    "C": "indica o lugar onde eles estudam",
+    "D": "identifica de quais estudantes a frase fala"
+   },
+   "answer": "D",
+   "explanation": "É uma oração relativa restritiva: limita o sentido de students."
+  },
+  {
+   "id": "qt-121",
+   "type": "text",
+   "themeId": "reported-speech",
+   "skill": "rs-tempos",
+   "prompt": "\"I am tired,\" she said. → She said that she ___ tired.",
+   "options": {
+    "A": "were",
+    "B": "is",
+    "C": "has been",
+    "D": "was"
+   },
+   "answer": "D",
+   "explanation": "Am recua para was no discurso indireto."
+  },
+  {
+   "id": "qt-122",
+   "type": "text",
+   "themeId": "reported-speech",
+   "skill": "rs-tempos",
+   "prompt": "\"I will help you,\" he said. → He said that he ___ help me.",
+   "options": {
+    "A": "would",
+    "B": "should",
+    "C": "can",
+    "D": "will"
+   },
+   "answer": "A",
+   "explanation": "Will recua para would."
+  },
+  {
+   "id": "qt-123",
+   "type": "text",
+   "themeId": "reported-speech",
+   "skill": "rs-tempos",
+   "prompt": "\"I can swim,\" Tom said. → Tom said that he ___ swim.",
+   "options": {
+    "A": "could",
+    "B": "can",
+    "C": "will",
+    "D": "may"
+   },
+   "answer": "A",
+   "explanation": "Can recua para could."
+  },
+  {
+   "id": "qt-124",
+   "type": "text",
+   "themeId": "reported-speech",
+   "skill": "rs-tempos",
+   "prompt": "\"We visited the museum,\" they said. → They said that they ___ the museum.",
+   "options": {
+    "A": "visit",
+    "B": "have visited",
+    "C": "had visited",
+    "D": "were visit"
+   },
+   "answer": "C",
+   "explanation": "Simple Past recua para Past Perfect: had + particípio."
+  },
+  {
+   "id": "qt-125",
+   "type": "text",
+   "themeId": "reported-speech",
+   "skill": "rs-mudancas",
+   "prompt": "\"I live here,\" she said. → She said that she lived ___.",
+   "options": {
+    "A": "there",
+    "B": "then",
+    "C": "here",
+    "D": "this"
+   },
+   "answer": "A",
+   "explanation": "Here vira there no discurso indireto."
+  },
+  {
+   "id": "qt-126",
+   "type": "text",
+   "themeId": "reported-speech",
+   "skill": "rs-mudancas",
+   "prompt": "\"I will finish it tomorrow,\" he said. → He said he would finish it ___.",
+   "options": {
+    "A": "yesterday",
+    "B": "the next day",
+    "C": "tomorrow",
+    "D": "the day before"
+   },
+   "answer": "B",
+   "explanation": "Tomorrow vira the next day (ou the following day)."
+  },
+  {
+   "id": "qt-127",
+   "type": "text",
+   "themeId": "reported-speech",
+   "skill": "rs-mudancas",
+   "prompt": "\"Close the door!\" she told me. Em discurso indireto fica:",
+   "options": {
+    "A": "She told me that I closed the door.",
+    "B": "She said me to close the door.",
+    "C": "She told me to close the door.",
+    "D": "She told me close the door."
+   },
+   "answer": "C",
+   "explanation": "Ordem no discurso indireto: told + pessoa + to + verbo. Say não vem seguido direto de pessoa."
+  },
+  {
+   "id": "qt-128",
+   "type": "text",
+   "themeId": "reported-speech",
+   "skill": "rs-mudancas",
+   "prompt": "\"Where do you live?\" he asked. → He asked me where ___.",
+   "options": {
+    "A": "I live did",
+    "B": "I lived",
+    "C": "do I live",
+    "D": "did I live"
+   },
+   "answer": "B",
+   "explanation": "Na pergunta indireta a ordem vira afirmativa (sujeito + verbo) e o tempo recua: where I lived."
+  },
+  {
+   "id": "qt-129",
+   "type": "text",
+   "themeId": "comparatives",
+   "skill": "cs-comparativo",
+   "prompt": "Complete: \"Brazil is ___ than Argentina.\"",
+   "options": {
+    "A": "biggest",
+    "B": "more big",
+    "C": "more bigger",
+    "D": "bigger"
+   },
+   "answer": "D",
+   "explanation": "Big é curto: dobra o g e ganha -er: bigger than."
+  },
+  {
+   "id": "qt-130",
+   "type": "text",
+   "themeId": "comparatives",
+   "skill": "cs-comparativo",
+   "prompt": "Complete: \"Living in São Paulo is ___ than living in a small town.\"",
+   "options": {
+    "A": "more expensiver",
+    "B": "more expensive",
+    "C": "most expensive",
+    "D": "expensiver"
+   },
+   "answer": "B",
+   "explanation": "Expensive é longo: more + adjetivo + than."
+  },
+  {
+   "id": "qt-131",
+   "type": "text",
+   "themeId": "comparatives",
+   "skill": "cs-comparativo",
+   "prompt": "Complete: \"My phone is as old ___ yours.\"",
+   "options": {
+    "A": "than",
+    "B": "as",
+    "C": "like",
+    "D": "that"
+   },
+   "answer": "B",
+   "explanation": "Comparação de igualdade: as + adjetivo + as."
+  },
+  {
+   "id": "qt-132",
+   "type": "text",
+   "themeId": "comparatives",
+   "skill": "cs-comparativo",
+   "prompt": "Qual frase está correta?",
+   "options": {
+    "A": "This exercise is easier than the last one.",
+    "B": "This exercise is more easy than the last one.",
+    "C": "This exercise is easiest than the last one.",
+    "D": "This exercise is easyer than the last one."
+   },
+   "answer": "A",
+   "explanation": "Adjetivo terminado em consoante + y troca o y por -ier: easy → easier."
+  },
+  {
+   "id": "qt-133",
+   "type": "text",
+   "themeId": "comparatives",
+   "skill": "cs-superlativo",
+   "prompt": "Complete: \"The Amazon is ___ rainforest in the world.\"",
+   "options": {
+    "A": "the most large",
+    "B": "the largest",
+    "C": "largest than",
+    "D": "the larger"
+   },
+   "answer": "B",
+   "explanation": "Superlativo de adjetivo curto: the + -est. Large → the largest."
+  },
+  {
+   "id": "qt-134",
+   "type": "text",
+   "themeId": "comparatives",
+   "skill": "cs-superlativo",
+   "prompt": "Qual é o superlativo de \"good\"?",
+   "options": {
+    "A": "the goodest",
+    "B": "the best",
+    "C": "the most good",
+    "D": "the better"
+   },
+   "answer": "B",
+   "explanation": "Good é irregular: good, better, the best."
+  },
+  {
+   "id": "qt-135",
+   "type": "text",
+   "themeId": "comparatives",
+   "skill": "cs-superlativo",
+   "prompt": "Complete: \"This is ___ book I have ever read.\"",
+   "options": {
+    "A": "more interesting",
+    "B": "the more interesting",
+    "C": "the most interesting",
+    "D": "the interestingest"
+   },
+   "answer": "C",
+   "explanation": "Interesting é longo: the most + adjetivo."
+  },
+  {
+   "id": "qt-136",
+   "type": "text",
+   "themeId": "comparatives",
+   "skill": "cs-superlativo",
+   "prompt": "Qual é o comparativo de \"bad\"?",
+   "options": {
+    "A": "worst",
+    "B": "more bad",
+    "C": "worse",
+    "D": "badder"
+   },
+   "answer": "C",
+   "explanation": "Bad é irregular: bad, worse, the worst. Worst é o superlativo."
+  },
+  {
+   "id": "qt-137",
+   "type": "text",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-depois",
+   "prompt": "Complete: \"I enjoy ___ to music.\"",
+   "options": {
+    "A": "to listen",
+    "B": "listening",
+    "C": "listened",
+    "D": "listen"
+   },
+   "answer": "B",
+   "explanation": "Enjoy é seguido de verbo com -ing."
+  },
+  {
+   "id": "qt-138",
+   "type": "text",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-depois",
+   "prompt": "Complete: \"She decided ___ medicine.\"",
+   "options": {
+    "A": "studied",
+    "B": "study",
+    "C": "studying",
+    "D": "to study"
+   },
+   "answer": "D",
+   "explanation": "Decide é seguido de to + verbo."
+  },
+  {
+   "id": "qt-139",
+   "type": "text",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-depois",
+   "prompt": "Complete: \"You should avoid ___ too much sugar.\"",
+   "options": {
+    "A": "ate",
+    "B": "to eat",
+    "C": "eating",
+    "D": "eat"
+   },
+   "answer": "C",
+   "explanation": "Avoid é seguido de verbo com -ing."
+  },
+  {
+   "id": "qt-140",
+   "type": "text",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-depois",
+   "prompt": "Complete: \"We hope ___ you again soon.\"",
+   "options": {
+    "A": "to see",
+    "B": "seeing",
+    "C": "see",
+    "D": "saw"
+   },
+   "answer": "A",
+   "explanation": "Hope é seguido de to + verbo."
+  },
+  {
+   "id": "qt-141",
+   "type": "text",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-uso",
+   "prompt": "Complete: \"___ is good for your health.\"",
+   "options": {
+    "A": "Swim",
+    "B": "To swimming",
+    "C": "Swimming",
+    "D": "Swims"
+   },
+   "answer": "C",
+   "explanation": "Como sujeito da frase, o verbo vira substantivo com -ing."
+  },
+  {
+   "id": "qt-142",
+   "type": "text",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-uso",
+   "prompt": "Complete: \"He is interested in ___ a new language.\"",
+   "options": {
+    "A": "to learn",
+    "B": "learn",
+    "C": "learned",
+    "D": "learning"
+   },
+   "answer": "D",
+   "explanation": "Depois de preposição (in), o verbo vai para o -ing."
+  },
+  {
+   "id": "qt-143",
+   "type": "text",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-uso",
+   "prompt": "Complete: \"Thank you for ___ me.\"",
+   "options": {
+    "A": "to help",
+    "B": "helping",
+    "C": "helped",
+    "D": "help"
+   },
+   "answer": "B",
+   "explanation": "For é preposição, então o verbo vem com -ing."
+  },
+  {
+   "id": "qt-144",
+   "type": "text",
+   "themeId": "gerund-infinitive",
+   "skill": "gi-uso",
+   "prompt": "Qual frase está correta?",
+   "options": {
+    "A": "I'm looking forward to meet you.",
+    "B": "I'm looking forward to meeting you.",
+    "C": "I'm looking forward meeting you.",
+    "D": "I'm looking forward for meet you."
+   },
+   "answer": "B",
+   "explanation": "Em look forward to, o to é preposição: depois dele vem -ing."
+  },
+  {
+   "id": "qt-145",
+   "type": "text",
+   "themeId": "pronouns",
+   "skill": "pr-tipos",
+   "prompt": "Complete: \"Can you help ___? I don't understand the exercise.\"",
+   "options": {
+    "A": "me",
+    "B": "I",
+    "C": "my",
+    "D": "mine"
+   },
+   "answer": "A",
+   "explanation": "Depois de verbo usamos o pronome objeto: help me."
+  },
+  {
+   "id": "qt-146",
+   "type": "text",
+   "themeId": "pronouns",
+   "skill": "pr-tipos",
+   "prompt": "Complete: \"This book isn't mine. It's ___.\"",
+   "options": {
+    "A": "her",
+    "B": "herself",
+    "C": "she",
+    "D": "hers"
+   },
+   "answer": "D",
+   "explanation": "Pronome possessivo que fica sozinho, sem substantivo depois: hers (dela)."
+  },
+  {
+   "id": "qt-147",
+   "type": "text",
+   "themeId": "pronouns",
+   "skill": "pr-tipos",
+   "prompt": "Complete: \"The dog is wagging ___ tail.\"",
+   "options": {
+    "A": "it's",
+    "B": "its",
+    "C": "it",
+    "D": "their"
+   },
+   "answer": "B",
+   "explanation": "Its = dele/dela para coisas e animais. It's é a contração de it is."
+  },
+  {
+   "id": "qt-148",
+   "type": "text",
+   "themeId": "pronouns",
+   "skill": "pr-tipos",
+   "prompt": "Complete: \"They did the project by ___.\"",
+   "options": {
+    "A": "themself",
+    "B": "theirselves",
+    "C": "themselves",
+    "D": "them"
+   },
+   "answer": "C",
+   "explanation": "By themselves = sozinhos, por conta própria. Reflexivo de they: themselves."
+  },
+  {
+   "id": "qt-149",
+   "type": "text",
+   "themeId": "pronouns",
+   "skill": "pr-referencia",
+   "prompt": "Em \"Bees are essential because they pollinate plants\", \"they\" se refere a:",
+   "options": {
+    "A": "Não se refere a nada.",
+    "B": "plants",
+    "C": "bees",
+    "D": "essential"
+   },
+   "answer": "C",
+   "explanation": "They retoma o substantivo plural anterior que faz a ação de polinizar: bees."
+  },
+  {
+   "id": "qt-150",
+   "type": "text",
+   "themeId": "pronouns",
+   "skill": "pr-referencia",
+   "prompt": "Em \"Maria called her brother, but he didn't answer\", \"he\" se refere a:",
+   "options": {
+    "A": "outra pessoa",
+    "B": "o irmão de Maria",
+    "C": "Maria",
+    "D": "ao telefone"
+   },
+   "answer": "B",
+   "explanation": "He é masculino singular e retoma her brother."
+  },
+  {
+   "id": "qt-151",
+   "type": "text",
+   "themeId": "pronouns",
+   "skill": "pr-referencia",
+   "prompt": "Em \"Brazilian farmers grow coffee and export it to many countries\", \"it\" se refere a:",
+   "options": {
+    "A": "Brazil",
+    "B": "countries",
+    "C": "coffee",
+    "D": "farmers"
+   },
+   "answer": "C",
+   "explanation": "It é singular e retoma o que é exportado: coffee."
+  },
+  {
+   "id": "qt-152",
+   "type": "text",
+   "themeId": "pronouns",
+   "skill": "pr-referencia",
+   "prompt": "Em \"The students and their teacher visited a museum\", \"their\" indica:",
+   "options": {
+    "A": "um pronome objeto",
+    "B": "um pronome sujeito",
+    "C": "um verbo",
+    "D": "posse: o professor é dos alunos"
+   },
+   "answer": "D",
+   "explanation": "Their é adjetivo possessivo (deles/delas)."
+  },
+  {
+   "id": "qt-153",
+   "type": "text",
+   "themeId": "quantifiers",
+   "skill": "qu-contaveis",
+   "prompt": "Qual palavra é incontável em inglês?",
+   "options": {
+    "A": "information",
+    "B": "idea",
+    "C": "student",
+    "D": "book"
+   },
+   "answer": "A",
+   "explanation": "Information é incontável: não tem plural (nada de informations)."
+  },
+  {
+   "id": "qt-154",
+   "type": "text",
+   "themeId": "quantifiers",
+   "skill": "qu-contaveis",
+   "prompt": "Qual frase está correta?",
+   "options": {
+    "A": "She gave me some good advices.",
+    "B": "She gave me many advices.",
+    "C": "She gave me some good advice.",
+    "D": "She gave me an advice good."
+   },
+   "answer": "C",
+   "explanation": "Advice é incontável: sem plural e sem an. Para contar: a piece of advice."
+  },
+  {
+   "id": "qt-155",
+   "type": "text",
+   "themeId": "quantifiers",
+   "skill": "qu-contaveis",
+   "prompt": "Complete: \"The news ___ very good today.\"",
+   "options": {
+    "A": "are",
+    "B": "were",
+    "C": "have",
+    "D": "is"
+   },
+   "answer": "D",
+   "explanation": "News termina em -s, mas é incontável e singular: The news is."
+  },
+  {
+   "id": "qt-156",
+   "type": "text",
+   "themeId": "quantifiers",
+   "skill": "qu-contaveis",
+   "prompt": "Qual destes substantivos é contável?",
+   "options": {
+    "A": "money",
+    "B": "chair",
+    "C": "furniture",
+    "D": "water"
+   },
+   "answer": "B",
+   "explanation": "Chair tem plural (chairs). Water, money e furniture são incontáveis."
+  },
+  {
+   "id": "qt-157",
+   "type": "text",
+   "themeId": "quantifiers",
+   "skill": "qu-quantidade",
+   "prompt": "Complete: \"How ___ students are in your class?\"",
+   "options": {
+    "A": "little",
+    "B": "any",
+    "C": "many",
+    "D": "much"
+   },
+   "answer": "C",
+   "explanation": "Students é contável: how many."
+  },
+  {
+   "id": "qt-158",
+   "type": "text",
+   "themeId": "quantifiers",
+   "skill": "qu-quantidade",
+   "prompt": "Complete: \"There isn't ___ milk in the fridge.\"",
+   "options": {
+    "A": "many",
+    "B": "any",
+    "C": "few",
+    "D": "some"
+   },
+   "answer": "B",
+   "explanation": "Frase negativa pede any."
+  },
+  {
+   "id": "qt-159",
+   "type": "text",
+   "themeId": "quantifiers",
+   "skill": "qu-quantidade",
+   "prompt": "Complete: \"We have very ___ time. Hurry up!\"",
+   "options": {
+    "A": "little",
+    "B": "a few",
+    "C": "few",
+    "D": "many"
+   },
+   "answer": "A",
+   "explanation": "Time (tempo) é incontável; very little = muito pouco."
+  },
+  {
+   "id": "qt-160",
+   "type": "text",
+   "themeId": "quantifiers",
+   "skill": "qu-quantidade",
+   "prompt": "Complete: \"I have ___ friends in Curitiba, so I am not alone.\"",
+   "options": {
+    "A": "much",
+    "B": "little",
+    "C": "a few",
+    "D": "a little"
+   },
+   "answer": "C",
+   "explanation": "Friends é contável; a few = alguns (sentido positivo)."
+  },
+  {
+   "id": "qt-161",
+   "type": "text",
+   "themeId": "prepositions",
+   "skill": "pre-tempo",
+   "prompt": "Complete: \"The class starts ___ 8 o'clock.\"",
+   "options": {
+    "A": "at",
+    "B": "in",
+    "C": "on",
+    "D": "to"
+   },
+   "answer": "A",
+   "explanation": "Horas usam at."
+  },
+  {
+   "id": "qt-162",
+   "type": "text",
+   "themeId": "prepositions",
+   "skill": "pre-tempo",
+   "prompt": "Complete: \"My birthday is ___ June.\"",
+   "options": {
+    "A": "by",
+    "B": "in",
+    "C": "at",
+    "D": "on"
+   },
+   "answer": "B",
+   "explanation": "Meses usam in."
+  },
+  {
+   "id": "qt-163",
+   "type": "text",
+   "themeId": "prepositions",
+   "skill": "pre-tempo",
+   "prompt": "Complete: \"We have English classes ___ Tuesdays.\"",
+   "options": {
+    "A": "at",
+    "B": "to",
+    "C": "in",
+    "D": "on"
+   },
+   "answer": "D",
+   "explanation": "Dias da semana usam on."
+  },
+  {
+   "id": "qt-164",
+   "type": "text",
+   "themeId": "prepositions",
+   "skill": "pre-tempo",
+   "prompt": "Complete: \"Brazil became independent ___ 1822.\"",
+   "options": {
+    "A": "on",
+    "B": "at",
+    "C": "since",
+    "D": "in"
+   },
+   "answer": "D",
+   "explanation": "Anos usam in."
+  },
+  {
+   "id": "qt-165",
+   "type": "text",
+   "themeId": "prepositions",
+   "skill": "pre-lugar",
+   "prompt": "Complete: \"The keys are ___ the table.\"",
+   "options": {
+    "A": "at",
+    "B": "on",
+    "C": "to",
+    "D": "in"
+   },
+   "answer": "B",
+   "explanation": "Em cima de uma superfície: on."
+  },
+  {
+   "id": "qt-166",
+   "type": "text",
+   "themeId": "prepositions",
+   "skill": "pre-lugar",
+   "prompt": "Complete: \"She lives ___ São Paulo.\"",
+   "options": {
+    "A": "to",
+    "B": "at",
+    "C": "on",
+    "D": "in"
+   },
+   "answer": "D",
+   "explanation": "Cidades e países usam in."
+  },
+  {
+   "id": "qt-167",
+   "type": "text",
+   "themeId": "prepositions",
+   "skill": "pre-lugar",
+   "prompt": "Complete: \"I'll meet you ___ the bus stop.\"",
+   "options": {
+    "A": "in",
+    "B": "to",
+    "C": "on",
+    "D": "at"
+   },
+   "answer": "D",
+   "explanation": "Ponto específico (ponto de ônibus): at."
+  },
+  {
+   "id": "qt-168",
+   "type": "text",
+   "themeId": "prepositions",
+   "skill": "pre-lugar",
+   "prompt": "Qual frase está correta?",
+   "options": {
+    "A": "There is a picture at the wall.",
+    "B": "There is a picture to the wall.",
+    "C": "There is a picture on the wall.",
+    "D": "There is a picture in the wall."
+   },
+   "answer": "C",
+   "explanation": "Quadro pendurado na parede está sobre a superfície: on the wall."
+  },
+  {
+   "id": "qt-169",
+   "type": "text",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "prompt": "Em \"The city is beautiful. However, it is very expensive\", however indica:",
+   "options": {
+    "A": "conclusão",
+    "B": "causa",
+    "C": "adição",
+    "D": "contraste"
+   },
+   "answer": "D",
+   "explanation": "However = porém, no entanto."
+  },
+  {
+   "id": "qt-170",
+   "type": "text",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "prompt": "Em \"Sales increased; therefore, the company hired more workers\", therefore significa:",
+   "options": {
+    "A": "além disso",
+    "B": "porém",
+    "C": "embora",
+    "D": "portanto"
+   },
+   "answer": "D",
+   "explanation": "Therefore introduz uma consequência: portanto, por isso."
+  },
+  {
+   "id": "qt-171",
+   "type": "text",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "prompt": "Qual conectivo indica adição?",
+   "options": {
+    "A": "although",
+    "B": "moreover",
+    "C": "because",
+    "D": "therefore"
+   },
+   "answer": "B",
+   "explanation": "Moreover = além disso."
+  },
+  {
+   "id": "qt-172",
+   "type": "text",
+   "themeId": "connectors",
+   "skill": "cn-sentido",
+   "prompt": "Em \"Due to the heavy rain, the game was cancelled\", \"due to\" indica:",
+   "options": {
+    "A": "causa",
+    "B": "condição",
+    "C": "contraste",
+    "D": "finalidade"
+   },
+   "answer": "A",
+   "explanation": "Due to = devido a. A chuva é a causa do cancelamento."
+  },
+  {
+   "id": "qt-173",
+   "type": "text",
+   "themeId": "connectors",
+   "skill": "cn-uso",
+   "prompt": "Complete: \"___ it was raining, they went to the beach.\"",
+   "options": {
+    "A": "Although",
+    "B": "Therefore",
+    "C": "Because",
+    "D": "Despite"
+   },
+   "answer": "A",
+   "explanation": "Although (embora) vem seguido de frase completa. Despite pediria substantivo: despite the rain."
+  },
+  {
+   "id": "qt-174",
+   "type": "text",
+   "themeId": "connectors",
+   "skill": "cn-uso",
+   "prompt": "Complete: \"___ the traffic, we arrived on time.\"",
+   "options": {
+    "A": "Because",
+    "B": "Despite",
+    "C": "So",
+    "D": "Although"
+   },
+   "answer": "B",
+   "explanation": "Despite + substantivo: apesar do trânsito."
+  },
+  {
+   "id": "qt-175",
+   "type": "text",
+   "themeId": "connectors",
+   "skill": "cn-uso",
+   "prompt": "Complete: \"She was tired, ___ she kept studying.\"",
+   "options": {
+    "A": "so",
+    "B": "because",
+    "C": "but",
+    "D": "therefore"
+   },
+   "answer": "C",
+   "explanation": "Cansada e continuou estudando: ideia de contraste, então but."
+  },
+  {
+   "id": "qt-176",
+   "type": "text",
+   "themeId": "connectors",
+   "skill": "cn-uso",
+   "prompt": "Complete: \"He studied a lot, ___ he passed the exam.\"",
+   "options": {
+    "A": "although",
+    "B": "so",
+    "C": "but",
+    "D": "however"
+   },
+   "answer": "B",
+   "explanation": "Estudou muito, então passou: consequência, so."
+  },
+  {
+   "id": "qt-177",
+   "type": "text",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "prompt": "\"Actually\" significa:",
+   "options": {
+    "A": "exatamente",
+    "B": "na verdade",
+    "C": "rapidamente",
+    "D": "atualmente"
+   },
+   "answer": "B",
+   "explanation": "Actually = na verdade. Atualmente é nowadays ou currently."
+  },
+  {
+   "id": "qt-178",
+   "type": "text",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "prompt": "\"Pretend\" significa:",
+   "options": {
+    "A": "fingir",
+    "B": "pertencer",
+    "C": "prender",
+    "D": "pretender"
+   },
+   "answer": "A",
+   "explanation": "Pretend = fingir. Pretender é intend."
+  },
+  {
+   "id": "qt-179",
+   "type": "text",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "prompt": "\"Library\" significa:",
+   "options": {
+    "A": "liberdade",
+    "B": "livraria",
+    "C": "laboratório",
+    "D": "biblioteca"
+   },
+   "answer": "D",
+   "explanation": "Library = biblioteca. Livraria é bookstore."
+  },
+  {
+   "id": "qt-180",
+   "type": "text",
+   "themeId": "false-cognates",
+   "skill": "fa-comuns",
+   "prompt": "\"Parents\" significa:",
+   "options": {
+    "A": "parceiros",
+    "B": "pais (pai e mãe)",
+    "C": "padrinhos",
+    "D": "parentes"
+   },
+   "answer": "B",
+   "explanation": "Parents = pai e mãe. Parentes é relatives."
+  },
+  {
+   "id": "qt-181",
+   "type": "text",
+   "themeId": "false-cognates",
+   "skill": "fa-texto",
+   "prompt": "Em \"Push the door to open it\", push significa:",
+   "options": {
+    "A": "puxar",
+    "B": "fechar",
+    "C": "empurrar",
+    "D": "bater"
+   },
+   "answer": "C",
+   "explanation": "Push = empurrar. Puxar é pull."
+  },
+  {
+   "id": "qt-182",
+   "type": "text",
+   "themeId": "false-cognates",
+   "skill": "fa-texto",
+   "prompt": "Em \"She attended a lecture on climate change\", lecture significa:",
+   "options": {
+    "A": "letra",
+    "B": "palestra, aula",
+    "C": "leitura",
+    "D": "lição de casa"
+   },
+   "answer": "B",
+   "explanation": "Lecture = palestra. Leitura é reading."
+  },
+  {
+   "id": "qt-183",
+   "type": "text",
+   "themeId": "false-cognates",
+   "skill": "fa-texto",
+   "prompt": "Em \"I realized I had forgotten my keys\", realized significa:",
+   "options": {
+    "A": "relaxei",
+    "B": "resolvi",
+    "C": "percebi",
+    "D": "realizei"
+   },
+   "answer": "C",
+   "explanation": "Realize = perceber, dar-se conta. Realizar é accomplish ou carry out."
+  },
+  {
+   "id": "qt-184",
+   "type": "text",
+   "themeId": "false-cognates",
+   "skill": "fa-texto",
+   "prompt": "Em \"Eventually, the scientists found a solution\", eventually significa:",
+   "options": {
+    "A": "finalmente, no fim",
+    "B": "imediatamente",
+    "C": "eventualmente, às vezes",
+    "D": "raramente"
+   },
+   "answer": "A",
+   "explanation": "Eventually = finalmente, depois de um tempo. Eventualmente é occasionally."
+  },
+  {
+   "id": "qt-185",
+   "type": "text",
+   "themeId": "affixes",
+   "skill": "af-prefixos",
+   "prompt": "Em \"unhappy\", o prefixo un- indica:",
+   "options": {
+    "A": "negação",
+    "B": "excesso",
+    "C": "antes",
+    "D": "repetição"
+   },
+   "answer": "A",
+   "explanation": "Un- nega o sentido: happy (feliz) → unhappy (infeliz)."
+  },
+  {
+   "id": "qt-186",
+   "type": "text",
+   "themeId": "affixes",
+   "skill": "af-prefixos",
+   "prompt": "Qual é o oposto de \"possible\"?",
+   "options": {
+    "A": "inpossible",
+    "B": "unpossible",
+    "C": "dispossible",
+    "D": "impossible"
+   },
+   "answer": "D",
+   "explanation": "Antes de p e b, o prefixo in- vira im-: impossible."
+  },
+  {
+   "id": "qt-187",
+   "type": "text",
+   "themeId": "affixes",
+   "skill": "af-prefixos",
+   "prompt": "Em \"rewrite\", o prefixo re- significa:",
+   "options": {
+    "A": "contra",
+    "B": "antes",
+    "C": "não",
+    "D": "de novo"
+   },
+   "answer": "D",
+   "explanation": "Re- = de novo: rewrite = reescrever."
+  },
+  {
+   "id": "qt-188",
+   "type": "text",
+   "themeId": "affixes",
+   "skill": "af-prefixos",
+   "prompt": "Qual é o oposto de \"agree\"?",
+   "options": {
+    "A": "unagree",
+    "B": "disagree",
+    "C": "inagree",
+    "D": "misagree"
+   },
+   "answer": "B",
+   "explanation": "Dis- forma o contrário de alguns verbos: agree → disagree (discordar)."
+  },
+  {
+   "id": "qt-189",
+   "type": "text",
+   "themeId": "affixes",
+   "skill": "af-sufixos",
+   "prompt": "Em \"carefully\", o sufixo -ly forma:",
+   "options": {
+    "A": "um advérbio (com cuidado)",
+    "B": "um verbo no passado",
+    "C": "um substantivo",
+    "D": "um plural"
+   },
+   "answer": "A",
+   "explanation": "-ly transforma adjetivos em advérbios: careful → carefully."
+  },
+  {
+   "id": "qt-190",
+   "type": "text",
+   "themeId": "affixes",
+   "skill": "af-sufixos",
+   "prompt": "Em \"homeless\", o sufixo -less significa:",
+   "options": {
+    "A": "cheio de",
+    "B": "um pouco",
+    "C": "de novo",
+    "D": "sem (sem casa)"
+   },
+   "answer": "D",
+   "explanation": "-less = sem: homeless = sem-teto; useless = inútil."
+  },
+  {
+   "id": "qt-191",
+   "type": "text",
+   "themeId": "affixes",
+   "skill": "af-sufixos",
+   "prompt": "Qual palavra é um substantivo formado por sufixo?",
+   "options": {
+    "A": "happily",
+    "B": "happy",
+    "C": "unhappy",
+    "D": "happiness"
+   },
+   "answer": "D",
+   "explanation": "-ness transforma adjetivo em substantivo: happy → happiness (felicidade)."
+  },
+  {
+   "id": "qt-192",
+   "type": "text",
+   "themeId": "affixes",
+   "skill": "af-sufixos",
+   "prompt": "Em \"The researcher published a new study\", \"researcher\" significa:",
+   "options": {
+    "A": "pesquisa",
+    "B": "pesquisado",
+    "C": "pesquisador(a)",
+    "D": "pesquisar"
+   },
+   "answer": "C",
+   "explanation": "-er indica quem faz a ação: research (pesquisar) → researcher (pesquisador)."
+  },
+  {
+   "id": "qt-193",
+   "type": "text",
+   "themeId": "reading-strategies",
+   "skill": "rd-estrategias",
+   "prompt": "Ler um texto rapidamente só para captar a ideia geral é chamado de:",
+   "options": {
+    "A": "translation",
+    "B": "scanning",
+    "C": "skimming",
+    "D": "prediction"
+   },
+   "answer": "C",
+   "explanation": "Skimming = passar os olhos para pegar a ideia geral."
+  },
+  {
+   "id": "qt-194",
+   "type": "text",
+   "themeId": "reading-strategies",
+   "skill": "rd-estrategias",
+   "prompt": "Procurar uma informação específica, como uma data ou um nome, é:",
+   "options": {
+    "A": "guessing",
+    "B": "scanning",
+    "C": "skimming",
+    "D": "summarizing"
+   },
+   "answer": "B",
+   "explanation": "Scanning = varrer o texto atrás de um dado específico."
+  },
+  {
+   "id": "qt-195",
+   "type": "text",
+   "themeId": "reading-strategies",
+   "skill": "rd-estrategias",
+   "prompt": "Em \"The government will invest in renewable energy\", quais palavras são cognatas (parecidas com o português)?",
+   "options": {
+    "A": "government, invest, renewable, energy",
+    "B": "apenas will e in",
+    "C": "apenas the",
+    "D": "Nenhuma palavra é cognata."
+   },
+   "answer": "A",
+   "explanation": "Government (governo), invest (investir), renewable (renovável) e energy (energia) são cognatas e já mostram o tema."
+  },
+  {
+   "id": "qt-196",
+   "type": "text",
+   "themeId": "reading-strategies",
+   "skill": "rd-estrategias",
+   "prompt": "Diante de uma palavra desconhecida numa questão de vestibular, a melhor estratégia é:",
+   "options": {
+    "A": "ignorar o parágrafo inteiro",
+    "B": "traduzir palavra por palavra o texto todo",
+    "C": "parar a leitura até lembrar a tradução",
+    "D": "deduzir o sentido pelo contexto da frase"
+   },
+   "answer": "D",
+   "explanation": "O contexto, os cognatos e as palavras conhecidas ao redor quase sempre bastam para entender a ideia."
+  },
+  {
+   "id": "qt-197",
+   "type": "text",
+   "themeId": "reading-strategies",
+   "skill": "rd-genero",
+   "prompt": "Um texto com título, data, fonte jornalística e fatos sobre um acontecimento recente é provavelmente:",
+   "options": {
+    "A": "um poema",
+    "B": "uma notícia",
+    "C": "um anúncio publicitário",
+    "D": "uma receita"
+   },
+   "answer": "B",
+   "explanation": "Essas marcas (data, fonte, fatos recentes) são típicas de notícias (news articles)."
+  },
+  {
+   "id": "qt-198",
+   "type": "text",
+   "themeId": "reading-strategies",
+   "skill": "rd-genero",
+   "prompt": "Um texto com imperativos como \"Buy now!\" e \"Don't miss it!\" tem como objetivo principal:",
+   "options": {
+    "A": "narrar uma história",
+    "B": "informar uma pesquisa científica",
+    "C": "convencer o leitor a comprar algo",
+    "D": "ensinar uma receita"
+   },
+   "answer": "C",
+   "explanation": "Imperativos de venda são marcas de anúncio publicitário (advertisement)."
+  },
+  {
+   "id": "qt-199",
+   "type": "text",
+   "themeId": "reading-strategies",
+   "skill": "rd-genero",
+   "prompt": "Num artigo de opinião, expressões como \"In my opinion\" e \"I believe\" indicam:",
+   "options": {
+    "A": "dados estatísticos",
+    "B": "uma lista de instruções",
+    "C": "o ponto de vista do autor",
+    "D": "o resumo de uma notícia"
+   },
+   "answer": "C",
+   "explanation": "Essas expressões marcam a opinião de quem escreve."
+  },
+  {
+   "id": "qt-200",
+   "type": "text",
+   "themeId": "reading-strategies",
+   "skill": "rd-genero",
+   "prompt": "Uma charge (cartoon) em prova de vestibular geralmente:",
+   "options": {
+    "A": "apresenta dados de uma pesquisa",
+    "B": "descreve um produto à venda",
+    "C": "ensina regras gramaticais",
+    "D": "faz uma crítica social usando humor"
+   },
+   "answer": "D",
+   "explanation": "Charges usam humor e ironia para criticar comportamentos ou problemas sociais."
+  }
+ ],
+ "skills": [
+  {
+   "id": "pv-tempo",
+   "themeId": "passive-voice",
+   "name": "To be no tempo certo",
+   "tip": "Descubra o tempo da frase ativa e coloque o to be nesse tempo: is/are, was/were, will be, is being, has been."
+  },
+  {
+   "id": "pv-participio",
+   "themeId": "passive-voice",
+   "name": "Particípio dos verbos",
+   "tip": "Revise os particípios irregulares: written, built, spoken, stolen, made."
+  },
+  {
+   "id": "pv-agente",
+   "themeId": "passive-voice",
+   "name": "Agente com \"by\"",
+   "tip": "Quem fez a ação aparece depois de by; quando não importa, o agente some."
+  },
+  {
+   "id": "pv-modal",
+   "themeId": "passive-voice",
+   "name": "Passiva com modais",
+   "tip": "Modal + be + particípio: can be solved, must be worn."
+  },
+  {
+   "id": "tq-polaridade",
+   "themeId": "tag-questions",
+   "name": "Sinal contrário na tag",
+   "tip": "Frase afirmativa pede tag negativa e vice-versa. Never, nobody e nothing contam como negativos."
+  },
+  {
+   "id": "tq-auxiliar",
+   "themeId": "tag-questions",
+   "name": "Escolher o auxiliar",
+   "tip": "Repita o auxiliar ou modal da frase; sem auxiliar, use do/does/did."
+  },
+  {
+   "id": "tq-excecoes",
+   "themeId": "tag-questions",
+   "name": "Exceções das tags",
+   "tip": "I am → aren't I; Let's → shall we; there is → isn't there; nobody → they."
+  },
+  {
+   "id": "sp-3pessoa",
+   "themeId": "simple-present",
+   "name": "-s/-es na 3ª pessoa",
+   "tip": "He/she/it ganham -s; -ch, -sh, -s, -x, -o ganham -es; consoante + y vira -ies."
+  },
+  {
+   "id": "sp-auxiliar",
+   "themeId": "simple-present",
+   "name": "Do e does",
+   "tip": "I/you/we/they usam do; he/she/it usam does, e o verbo volta para a forma base."
+  },
+  {
+   "id": "sp-uso",
+   "themeId": "simple-present",
+   "name": "Quando usar",
+   "tip": "Hábitos, verdades gerais e horários fixos."
+  },
+  {
+   "id": "pa-irregular",
+   "themeId": "simple-past",
+   "name": "Verbos irregulares",
+   "tip": "Monte uma lista com os mais comuns: went, ate, saw, bought, thought."
+  },
+  {
+   "id": "pa-regular",
+   "themeId": "simple-past",
+   "name": "Verbos regulares (-ed)",
+   "tip": "Regra geral -ed; consoante + y vira -ied; CVC tônico dobra a consoante."
+  },
+  {
+   "id": "pa-did",
+   "themeId": "simple-past",
+   "name": "Did e didn't",
+   "tip": "Perguntas e negativas usam did/didn't, e o verbo volta para a forma base."
+  },
+  {
+   "id": "ph-significado",
+   "themeId": "phrasal-verbs",
+   "name": "Significado dos phrasal verbs",
+   "tip": "Aprenda o phrasal verb inteiro com uma frase de exemplo, não palavra por palavra."
+  },
+  {
+   "id": "ph-particula",
+   "themeId": "phrasal-verbs",
+   "name": "Partícula certa",
+   "tip": "A partícula muda tudo: look for (procurar), look after (cuidar), look up (pesquisar)."
+  },
+  {
+   "id": "li-detalhe",
+   "themeId": "listening",
+   "name": "Entender detalhes",
+   "tip": "Leia a pergunta antes de ouvir e preste atenção na palavra-chave."
+  },
+  {
+   "id": "li-numeros",
+   "themeId": "listening",
+   "name": "Números e horários",
+   "tip": "Treine dezenas (twenty-five) e horas (seven thirty) em voz alta."
+  },
+  {
+   "id": "li-estrutura",
+   "themeId": "listening",
+   "name": "Reconhecer a gramática no áudio",
+   "tip": "Procure as marcas: was + particípio (passiva), auxiliar no fim (tag)."
+  },
+  {
+   "id": "vd-expressao",
+   "themeId": "video",
+   "name": "Expressões idiomáticas",
+   "tip": "O sentido não é literal: memorize a expressão inteira com o contexto da cena."
+  },
+  {
+   "id": "pc-forma",
+   "themeId": "present-continuous",
+   "name": "Forma: am/is/are + -ing",
+   "tip": "Sujeito + am/is/are + verbo com -ing. Atenção à grafia: make → making, run → running."
+  },
+  {
+   "id": "pc-uso",
+   "themeId": "present-continuous",
+   "name": "Agora x sempre",
+   "tip": "Present Continuous = acontecendo agora ou temporário (now, at the moment). Hábitos ficam no Simple Present. Verbos de estado (know, like, want) quase nunca vão para o -ing."
+  },
+  {
+   "id": "pac-forma",
+   "themeId": "past-continuous",
+   "name": "Forma: was/were + -ing",
+   "tip": "I/he/she/it → was; you/we/they → were; depois, o verbo com -ing."
+  },
+  {
+   "id": "pac-uso",
+   "themeId": "past-continuous",
+   "name": "Ação interrompida (when / while)",
+   "tip": "Past Continuous = ação em andamento no passado. O Simple Past é a ação curta que interrompe (when). While liga ações que aconteciam ao mesmo tempo."
+  },
+  {
+   "id": "pp-forma",
+   "themeId": "present-perfect",
+   "name": "Forma: have/has + particípio",
+   "tip": "I/you/we/they have; he/she/it has; depois, o particípio (3ª coluna): has gone, have seen."
+  },
+  {
+   "id": "pp-uso",
+   "themeId": "present-perfect",
+   "name": "Present Perfect x Simple Past",
+   "tip": "Tempo definido (yesterday, in 2010, ago, last year) pede Simple Past. Experiência, resultado no presente ou ever, never, already, yet, since e for pedem Present Perfect."
+  },
+  {
+   "id": "fu-will",
+   "themeId": "future",
+   "name": "Will",
+   "tip": "Will + verbo base: decisões na hora, promessas e previsões por opinião (I think it will rain)."
+  },
+  {
+   "id": "fu-going",
+   "themeId": "future",
+   "name": "Going to e outros futuros",
+   "tip": "Be going to: planos já decididos e previsões com evidência (Look at the clouds! It's going to rain). O Present Continuous indica compromissos marcados."
+  },
+  {
+   "id": "mo-sentido",
+   "themeId": "modals",
+   "name": "Sentido dos modais",
+   "tip": "can = habilidade/permissão; must = obrigação; should = conselho; may/might = possibilidade; mustn't = proibição; don't have to = não é necessário."
+  },
+  {
+   "id": "mo-forma",
+   "themeId": "modals",
+   "name": "Forma dos modais",
+   "tip": "Modal + verbo base, sem to e sem -s: She can swim (nunca cans ou can to swim). Na negativa, basta o not: shouldn't, can't."
+  },
+  {
+   "id": "co-tipos",
+   "themeId": "conditionals",
+   "name": "Tipos de condicional",
+   "tip": "Zero: if + presente, presente (fatos). 1ª: if + presente, will (possível). 2ª: if + passado, would (hipotético). 3ª: if + had + particípio, would have + particípio (passado que não aconteceu)."
+  },
+  {
+   "id": "co-forma",
+   "themeId": "conditionals",
+   "name": "Montar a frase",
+   "tip": "Nunca use will na parte do if. Na 2ª condicional, use were para todas as pessoas: If I were you... Unless = if not."
+  },
+  {
+   "id": "rp-escolha",
+   "themeId": "relative-pronouns",
+   "name": "Who, which, whose, where...",
+   "tip": "who = pessoas; which = coisas e animais; that = pessoas ou coisas (sem vírgula); whose = posse; where = lugar; when = tempo."
+  },
+  {
+   "id": "rp-uso",
+   "themeId": "relative-pronouns",
+   "name": "Orações relativas",
+   "tip": "Com vírgula (informação extra), não use that. Quando o pronome é objeto da oração, ele pode sumir: The book (that) I read."
+  },
+  {
+   "id": "rs-tempos",
+   "themeId": "reported-speech",
+   "name": "Recuo dos tempos",
+   "tip": "No discurso indireto o tempo volta um passo: am/is → was; will → would; can → could; Simple Past → Past Perfect (had + particípio)."
+  },
+  {
+   "id": "rs-mudancas",
+   "themeId": "reported-speech",
+   "name": "Pronomes, tempo e lugar",
+   "tip": "Ajuste as referências: I → he/she; today → that day; tomorrow → the next day; here → there. Ordens viram told + pessoa + to + verbo."
+  },
+  {
+   "id": "cs-comparativo",
+   "themeId": "comparatives",
+   "name": "Comparativo",
+   "tip": "Adjetivos curtos: -er + than (taller than). Longos: more + adjetivo + than (more expensive than). Igualdade: as ... as."
+  },
+  {
+   "id": "cs-superlativo",
+   "themeId": "comparatives",
+   "name": "Superlativo e irregulares",
+   "tip": "Curtos: the + -est (the tallest). Longos: the most (the most important). Irregulares: good → better → the best; bad → worse → the worst."
+  },
+  {
+   "id": "gi-depois",
+   "themeId": "gerund-infinitive",
+   "name": "Depois de certos verbos",
+   "tip": "Com -ing: enjoy, avoid, finish, mind, keep, suggest. Com to: want, decide, hope, plan, need, promise."
+  },
+  {
+   "id": "gi-uso",
+   "themeId": "gerund-infinitive",
+   "name": "-ing como substantivo e depois de preposição",
+   "tip": "O -ing funciona como substantivo no início da frase (Reading is fun) e é obrigatório depois de preposição (good at playing, interested in learning)."
+  },
+  {
+   "id": "pr-tipos",
+   "themeId": "pronouns",
+   "name": "Sujeito, objeto e possessivo",
+   "tip": "Sujeito: I, you, he, she, it, we, they. Objeto: me, you, him, her, it, us, them. Possessivos: my, your, his, her, its, our, their / mine, yours, hers, ours, theirs."
+  },
+  {
+   "id": "pr-referencia",
+   "themeId": "pronouns",
+   "name": "Referência no texto",
+   "tip": "No vestibular, pergunta-se a quem o pronome se refere: procure o substantivo anterior que combina em número (singular/plural) e sentido."
+  },
+  {
+   "id": "qu-contaveis",
+   "themeId": "quantifiers",
+   "name": "Contáveis e incontáveis",
+   "tip": "Contáveis têm plural (books, apples). Incontáveis não têm (water, information, advice, money, news) e ficam no singular."
+  },
+  {
+   "id": "qu-quantidade",
+   "themeId": "quantifiers",
+   "name": "Much, many, few, little...",
+   "tip": "many/a few + contáveis; much/a little + incontáveis; some em afirmativas e ofertas; any em negativas e perguntas; a lot of serve para os dois."
+  },
+  {
+   "id": "pre-tempo",
+   "themeId": "prepositions",
+   "name": "In, on, at (tempo)",
+   "tip": "at + horas (at 7 p.m.); on + dias e datas (on Monday, on May 5th); in + meses, anos, estações e partes do dia (in July, in 2020, in the morning)."
+  },
+  {
+   "id": "pre-lugar",
+   "themeId": "prepositions",
+   "name": "In, on, at (lugar)",
+   "tip": "in = dentro (in Brazil, in the box); on = sobre uma superfície (on the table, on the wall); at = ponto específico (at school, at the bus stop)."
+  },
+  {
+   "id": "cn-sentido",
+   "themeId": "connectors",
+   "name": "Sentido dos conectivos",
+   "tip": "Contraste: but, however, although, despite. Causa: because, since, due to. Consequência: so, therefore, thus. Adição: and, moreover, furthermore, in addition."
+  },
+  {
+   "id": "cn-uso",
+   "themeId": "connectors",
+   "name": "Usar no texto",
+   "tip": "Despite/in spite of + substantivo ou -ing. Although + frase completa (sujeito e verbo). However costuma abrir a frase, seguido de vírgula."
+  },
+  {
+   "id": "fa-comuns",
+   "themeId": "false-cognates",
+   "name": "Falsos cognatos clássicos",
+   "tip": "actually = na verdade; pretend = fingir; push = empurrar; library = biblioteca; college = faculdade; parents = pais; eventually = finalmente."
+  },
+  {
+   "id": "fa-texto",
+   "themeId": "false-cognates",
+   "name": "Falsos cognatos no texto",
+   "tip": "Confie no contexto: se a tradução parecida não faz sentido na frase, provavelmente é um falso cognato."
+  },
+  {
+   "id": "af-prefixos",
+   "themeId": "affixes",
+   "name": "Prefixos",
+   "tip": "un-, in-, im-, dis- = negação (unhappy, impossible, dislike); re- = de novo (rewrite); over- = excesso (overweight); pre- = antes (preview)."
+  },
+  {
+   "id": "af-sufixos",
+   "themeId": "affixes",
+   "name": "Sufixos",
+   "tip": "-ly forma advérbios (quickly); -ness e -ment formam substantivos (happiness, development); -er/-or = quem faz (teacher, actor); -ful = cheio de; -less = sem (careless)."
+  },
+  {
+   "id": "rd-estrategias",
+   "themeId": "reading-strategies",
+   "name": "Estratégias de leitura",
+   "tip": "Skimming = leitura rápida para a ideia geral; scanning = procurar uma informação específica (datas, nomes, números). Cognatos e palavras repetidas revelam o tema."
+  },
+  {
+   "id": "rd-genero",
+   "themeId": "reading-strategies",
+   "name": "Gênero e objetivo do texto",
+   "tip": "Observe título, fonte, imagens e formato: anúncio quer vender, notícia informa, artigo de opinião defende uma ideia, charge critica com humor."
+  }
+ ],
+ "groups": [
+  {
+   "id": "tempos",
+   "name": "Tempos verbais"
+  },
+  {
+   "id": "gramatica",
+   "name": "Estruturas gramaticais"
+  },
+  {
+   "id": "vocabulario",
+   "name": "Palavras e vocabulário"
+  },
+  {
+   "id": "leitura",
+   "name": "Leitura para o vestibular"
+  },
+  {
+   "id": "midia",
+   "name": "Ouvir e assistir"
+  }
+ ]
+}
